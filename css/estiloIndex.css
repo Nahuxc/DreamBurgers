@@ -1,0 +1,1072 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 900px;
+    background: #659999;
+    background: -webkit-linear-gradient(to right, hsla(180, 54%, 40%, 0.315), hsla(25, 45%, 46%, 0.301)), url(../images/Comidas/Hamburgesa.jpg);
+    background: linear-gradient(to right, hsla(180, 54%, 40%, 0.315), hsla(25, 45%, 46%, 0.301)), url(../images/Comidas/Hamburgesa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+/* scroll-website */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(240, 114, 114);
+    ;
+    border-radius: 3opx;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #eb7676;
+}
+
+::-webkit-scrollbar-track {
+    background: #595959;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+
+
+/* navegador/textos/img-logo  */
+
+.contenedor-nav {
+    padding: 0px 30px 15px 0;
+    background-color: hsla(0, 0%, 9%, 0.712);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    z-index: 2;
+}
+
+
+.contenedor-nav__h1 {
+    font-size: 30px;
+    padding: 20px 70px 10px 10px;
+    line-height: 2;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+
+.contenedor-nav__text {
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0%;
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu-nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.menu-nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-nav li a:hover {
+    background: hsla(0, 100%, 50%, 0.589);
+    transition: 350ms;
+    border-radius: 15%;
+    box-shadow: 0 0 10px #ff0000, 0 0 30px #ff0101, 0 0 10px #ff0000;
+}
+
+.contenedor-nav__img {
+    padding: 5px 10px 20px 20px;
+    width: 125px;
+    height: 110px;
+    float: left;
+}
+
+/* perfil*/
+
+.contenedor-nav__imgperfil {
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    line-height: 45px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+    transition: all 300ms ease;
+    float: right;
+}
+
+.contenedor-nav__imgperfil:hover {
+    background-color: rgba(255, 255, 255, 0.575);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+}
+
+/* carrito*/
+
+.contenedor-nav__imgshop {
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    line-height: 45px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: right;
+    transition: all 300ms ease;
+    float: right;
+}
+
+.contenedor-nav__imgshop:hover {
+    background-color: rgba(255, 255, 255, 0.575);
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+}
+
+/* home*/
+.textos-home {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textos-home h1 {
+    font-size: 150px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
+}
+
+.textos-home h2 {
+    height: 430px;
+    font-weight: 800;
+    color: white;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
+}
+
+
+/* boton de inicio DreaMenu */
+.textos-home-link {
+    background: hsla(0, 0%, 22%, 0.493);
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    padding: 15px 30px 55px 30px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.textos-home-link:hover {
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 400ms;
+}
+
+.textos-home-link span {
+    position: absolute;
+    display: block;
+}
+
+#span1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff0000);
+}
+
+.textos-home-link:hover #span1 {
+    left: 100%;
+    transition: 1s;
+}
+
+#span3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ff0000);
+}
+
+.textos-home-link:hover #span3 {
+    right: 100%;
+    transition: 1s;
+    transition: 0.5s;
+}
+
+#span2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ff0000);
+}
+
+.textos-home-link:hover #span2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff0000);
+}
+
+.textos-home-link:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.10s;
+}
+
+.next-page {
+    line-height: 2;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* boton de siguiente pagina de dreaMenu */
+.textos-link {
+    background: hsla(0, 0%, 22%, 0.493);
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.textos-link:hover {
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 400ms;
+}
+
+.textos-link span {
+    position: absolute;
+    display: block;
+}
+
+#spanN1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff0000);
+}
+
+.textos-link:hover #spanN1 {
+    left: 100%;
+    transition: 1s;
+}
+
+#spanN3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ff0000);
+}
+
+.textos-link:hover #spanN3 {
+    right: 100%;
+    transition: 1s;
+    transition: 0.5s;
+}
+
+#spanN2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ff0000);
+}
+
+.textos-link:hover #spanN2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#spanN4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff0000);
+}
+
+.textos-link:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.10s;
+}
+
+.next-page {
+    line-height: 2;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* wave */
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Menu De comidas */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-menu {
+    width: 100%;
+    background: radial-gradient(circle, #333, #222);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.burger-menu {
+    background-color: rgb(228, 227, 227);
+    border-radius: 2px;
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
+    width: 600px;
+    display: inline-block;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.buttom-h2 {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.904);
+    text-decoration: none;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 2px 7px rgb(105, 105, 105), 2px 2px 7px rgb(223, 223, 223), 2px 2px 7px #0c1116;
+}
+
+.contenedor-menu__h3 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+.contenedor-menu__h3-pollo {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 1.5;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+
+.menu-text {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.contenedor-menu__img {
+    width: 90%;
+    height: 430px;
+}
+
+/* zoom de img */
+
+.container-img{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img figure{
+    width: 400px;
+    height: 320px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.container-img figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+}
+
+.container-img figure img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* boton de compra */
+
+.contenedor-BuyButtom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttom {
+    background: hsla(0, 0%, 8%, 0.815);
+    color: rgb(255, 255, 255);
+    display: inline;
+    width: 200px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.buttom:hover{
+    background-color: #f86e6e;
+    color: black;
+    box-shadow: 0 0 10px #f86e6e, 0 0 10px #000000, 0 0 30px #000000;
+    transition: 300ms;
+    font-size: 18px;
+}
+
+/* Horarios y soporte */
+
+.horarios-soporte{
+    background: rgb(36, 35, 35);
+    width: 100%;
+    padding: 20px;
+}
+
+.contenedor-SHitem{
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+    box-shadow: 0 0 10px #eb0000, 0 0 15px #ffffff, 0 0 10px #a82424;
+}
+
+.contenedor-SHitem h2{
+    font-size: 50px;
+}
+
+.img-ilus{
+    width: 550px;
+    height: 500px;
+}
+
+/* pie de pagina */
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgb(14, 15, 15);
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #0c1116;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #1c1e20;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.facebook-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.instragram-logo {
+    width: 50px;
+    height: 50px;
+}
+
+/*ajuste a tablet */
+@media only screen and (max-width: 768px){
+
+    /* menu dream */
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contenedor-menu {
+        width: 100%;
+        background: radial-gradient(circle, #e7bcbc, #eb7676);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger-menu {
+        background-color: rgb(0, 0, 0);
+        border-radius: 2px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+        width: 250px;
+        display: inline-block;
+        justify-content: space-around;
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .buttom-h2 {
+        color: white;
+        background-color: hsla(0, 0%, 0%, 0.904);
+        text-decoration: none;
+        font-size: 100px;
+        font-family: sans-serif;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .contenedor-menu__h3 {
+        color: white;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    .contenedor-menu__h3-pollo {
+        color: white;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        line-height: 3;
+    }
+
+    .menu-text {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    .contenedor-menu__img {
+        width: 50%;
+        height: 110px;
+    }
+
+    .container-img{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-img figure{
+        width: 220px;
+        height: 210px;
+        overflow: hidden;
+        transition: all 500ms ease;
+    }
+
+    /* soporte y horarios */
+
+    .horarios-soporte{
+        padding: 20px 30px 20px 70px;
+    }
+
+    .contenedor-SHitem{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 800;
+        line-height: 1.5;
+        box-shadow: 0 0 10px #eb0000, 0 0 40px #8a8a8a, 0 0 10px #a82424;
+    }
+
+    .contenedor-SHitem h2{
+        font-size: 50px;
+    }
+
+    .img-ilus{
+        width: 500px;
+        height: 450px;
+    }
+
+}
+
+/* ajuste a mobile */
+
+@media only screen and (max-width: 425px) {
+
+    .header {
+        background: url(../images/Comidas/fondo1.jpg);
+        background-position-x: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+
+    }
+
+    /*navegador */
+    .contenedor-nav {
+        padding: 0px 0px 15px 0px;
+        background-color: hsla(0, 0%, 9%, 0.712);
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        color: white;
+    }
+
+    .menu-nav {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0%;
+        width: 40%;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .menu-nav li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        display: block;
+    }
+
+    .menu-nav li {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .menu-nav li a:hover {
+        background: hsla(0, 100%, 50%, 0.589);
+        border-radius: 20%;
+        box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0101, 0 0 10px #ff0000;
+        transition: 150ms;
+    }
+
+    .contenedor-nav__h1 {
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    .contenedor-nav__img {
+        width: 110px;
+        height: 95px;
+        float: left;
+    }
+
+    .contenedor-nav__text{
+        font-size: 15px;
+    }
+
+    /* perfil*/
+
+    .contenedor-nav__imgperfil {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: right;
+        transition: all 300ms ease;
+        float: right;
+    }
+
+    .contenedor-nav__imgperfil:hover {
+        background-color: rgba(255, 255, 255, 0.575);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+    }
+
+    /* carrito*/
+
+    .contenedor-nav__imgshop {
+        text-decoration: none;
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+        margin-top: 10px;
+        text-align: right;
+        transition: all 300ms ease;
+        float: right;
+    }
+
+    .contenedor-nav__imgshop:hover {
+        background-color: rgba(255, 255, 255, 0.575);
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+    }
+
+    /* boton dreaMenu */
+    .textos-home-link{
+        top: 0px;
+        padding: 15px 30px 40px 30px;
+    }
+
+    /*home */
+    .textos-home {
+        height: 350px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .textos-home h1 {
+        font-size: 80px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    .textos-home h2 {
+        height: 200px;
+        font-weight: 800;
+        color: white;
+        font-family: sans-serif;
+        font-size: 50px;
+    }
+
+    /* boton de inicio DreaMenu */
+    .textos-home-link {
+        background: hsla(0, 0%, 22%, 0.493);
+        margin: 10px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        position: relative;
+        top: 50px;
+        display: inline-block;
+        padding: 15px 30px 40px 30px;
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+    .textos-home-link:hover {
+        background: #ff0000;
+        box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+        transition-delay: 150ms;
+    }
+
+    /* boton de siguiente pagina de dreaMenu */
+    .textos-link {
+        background: hsla(0, 0%, 22%, 0.493);
+        margin: 20px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        position: relative;
+        display: inline-block;
+        padding: 15px 20px;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+    .textos-link:hover {
+        background: #ff0000;
+        box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+        transition-delay: 150ms;
+    }
+
+    /* menu dream */
+
+    menu {
+        background: rgb(36, 35, 35);
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contenedor-menu {
+        background: rgb(0, 0, 0);
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .burger-menu {
+        background-color: rgb(228, 227, 227);
+        border-radius: 2px;
+        box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.6);
+        width: 380px;
+        display: inline-block;
+        justify-content: space-around;
+        margin: 25px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .buttom-h2 {
+        color: white;
+        background-color: hsla(0, 0%, 0%, 0.904);
+        text-decoration: none;
+        font-size: 40px;
+        font-family: sans-serif;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .contenedor-menu__h3 {
+        line-height: 2;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        margin: 20px;
+        font-family: sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    }
+
+    .contenedor-menu__h3-pollo{
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        margin: 20px;
+        line-height: 2;
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    }
+
+    .menu-text {
+        color: black;
+        margin: 20px;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    .contenedor-menu__img {
+        width: 70%;
+        height: 300px;
+    }
+
+    /*zoom img */
+    .container-img{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-img figure{
+        width: 300px;
+        height: 270px;
+        overflow: hidden;
+        transition: all 500ms ease;
+    }
+
+    /* soporte y horarios */
+
+    .horarios-soporte{
+        padding: 10px 20px 20px 10px;
+    }
+
+    .contenedor-SHitem{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 800;
+        line-height: 1.5;
+        box-shadow: 0 0 10px #eb0000, 0 0 40px #8a8a8a, 0 0 10px #a82424;
+    }
+
+    .contenedor-SHitem h2{
+        font-size: 30px;
+    }
+
+    .img-ilus{
+        width: 350px;
+        height: 350px;
+    }
+
+    /*  footer  */
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        padding: 15px 30px;
+    }
+
+    .pie-pagina .grupo-1 .box figure img {
+        width: 120px;
+    }
+
+    .pie-pagina .grupo-2 {
+        background-color: #1c1e20;
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .pie-pagina .grupo-2 small {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+}

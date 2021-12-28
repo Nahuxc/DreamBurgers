@@ -1,0 +1,817 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header{
+    width: 100%;
+    height: 900px;
+    background: #659999;
+    background: -webkit-linear-gradient(to right, hsla(180, 54%, 40%, 0.315), hsla(25, 45%, 46%, 0.301)), url(../images/ilustraciones/Menu-img.png);
+    background: linear-gradient(to right, hsla(180, 54%, 40%, 0.315), hsla(25, 45%, 46%, 0.301)), url(../images/ilustraciones/Menu-img.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+/* scroll-website */
+
+::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(240, 114, 114); ;
+    border-radius: 3opx;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #eb7676;
+}
+
+::-webkit-scrollbar-track{
+    background: #595959;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+
+
+/* navegador/textos/img-logo  */
+
+.contenedor-nav {
+    padding: 0px 30px 15px 0;
+    background-color: hsla(0, 0%, 9%, 0.712);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    z-index: 2;
+}
+
+
+.contenedor-nav__h1 {
+    font-size: 30px;
+    padding: 20px 70px 10px 10px;
+    line-height: 2;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+
+.contenedor-nav__text {
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0%;
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu-nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.menu-nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-nav li a:hover {
+    background: hsla(0, 100%, 50%, 0.589);
+    border-radius: 15%;
+    box-shadow: 0 0 10px #ff0000, 0 0 30px #ff0101, 0 0 10px #ff0000;
+}
+
+.contenedor-nav__img {
+    padding: 5px 10px 20px 20px;
+    width: 125px;
+    height: 110px;
+    float: left;
+}
+
+/* perfil*/
+
+.contenedor-nav__imgperfil {
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    line-height: 45px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+    transition: all 300ms ease;
+    float: right;
+}
+
+.contenedor-nav__imgperfil:hover {
+    background-color: rgba(255, 255, 255, 0.575);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+}
+
+/* carrito*/
+
+.contenedor-nav__imgshop {
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    line-height: 45px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: right;
+    transition: all 300ms ease;
+    float: right;
+}
+
+.contenedor-nav__imgshop:hover {
+    background-color: rgba(255, 255, 255, 0.575);
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+}
+
+/* home*/
+.textos-home{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textos-home h1{
+    font-size: 150px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
+}
+
+/* boton de inicio DreaMenu */
+.textos-home-link{
+    background: hsla(0, 0%, 22%, 0.493);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.textos-home-link:hover{
+    background: #ffd900;
+    box-shadow: 0 0 10px #ffd900, 0 0 40px #ffd900, 0 0 80px #ffd900;
+    transition-delay: 400ms;
+}
+.textos-home-link span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ffd900);
+}
+
+.textos-home-link:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ffd900);
+}
+
+.textos-home-link:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ffd900);
+}
+
+.textos-home-link:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ffd900);
+}
+
+.textos-home-link:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.10s;
+}
+
+/* wave */
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Combos Burgers */
+
+.titulo-sect-combos{
+    color: white;
+    background-color: black;
+    font-size: 100px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 7px #fbff00, 2px 2px 7px rgb(223, 223, 223), 2px 2px 7px #0c1116;
+}
+
+.sect-combos{
+    background: radial-gradient(circle, #fff, hsla(59, 72%, 50%, 0.76));
+    width: 100%;
+}
+
+.menu-combos{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.combos{
+    background: radial-gradient(circle, #fff, #cfcfcf);
+    border-radius: 2px;
+    box-shadow: 0 0 60px 0 #000000;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 20px #000000, 0 0 30px #f7fb02, 0 0 15px #000000;
+}
+
+.titulo-comb{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+.combos-text{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #f3f3f3;
+    text-shadow: 2px 2px 7px #000000, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+.titulo-h4-combos{
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    color: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(155, 155, 155), #0e0e0e);
+    font-size: 30px;
+    line-height: 2;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.combo-img{
+    width: 450px;
+    height: 360px;
+}
+
+/* zoom de img */
+
+.container-img{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img figure{
+    width: 400px;
+    height: 320px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.container-img figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+}
+
+.container-img figure img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* menu-burgers */
+
+.buttom-h2{
+    color: white;
+    background-color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 2px 7px rgb(53, 50, 1), 2px 2px 7px #000000, 2px 2px 7px #0c1116;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-menu{
+    width: 100%;
+    background: radial-gradient(circle, #fff, #000000);
+}
+
+.burgers-menu{
+    background-color: rgb(228, 227, 227);
+    border-radius: 2px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.6);
+    width: 600px;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.burger-img{
+    width: 90%;
+    height: 430px;
+}
+
+/*boton de compra */
+
+.contenedor-BuyButtom {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.buttom {
+    background: hsla(0, 0%, 43%, 0.815);
+    color: rgb(255, 255, 255);
+    display: inline;
+    width: 200px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.buttom:hover{
+    background-color: #fbff00;
+    color: black;
+    box-shadow: 0 0 10px #ffee00, 0 0 10px #f5f244, 0 0 30px #000000;
+    transition: 300ms;
+    font-size: 18px;
+}
+
+/* pie de pagina */
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(14, 15, 15);
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #1c1e20;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+
+}
+
+.facebook-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.instragram-logo{
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .header {
+        background: url(../images/ilustraciones/Menu-img.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 900px;
+
+    }
+
+        /*navegador */
+    .contenedor-nav {
+        padding: 0px 0px 15px 0px;
+        background-color: hsla(0, 0%, 9%, 0.712);
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        color: white;
+    }
+
+    .menu-nav {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0%;
+        width: 40%;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .menu-nav li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        display: block;
+    }
+
+    .menu-nav li {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .menu-nav li a:hover {
+        background: hsla(59, 100%, 50%, 0.589);
+        border-radius: 20%;
+        box-shadow: 0 0 10px #e5ff00, 0 0 40px #ffee01, 0 0 10px #fffb00;
+        transition: 50ms;
+    }
+
+    .contenedor-nav__h1 {
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    .contenedor-nav__img {
+        width: 110px;
+        height: 95px;
+        float: left;
+    }
+
+    .contenedor-nav__text{
+        font-size: 15px;
+    }
+
+        /* perfil*/
+
+    .contenedor-nav__imgperfil {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: right;
+        transition: all 300ms ease;
+        float: right;
+    }
+
+    .contenedor-nav__imgperfil:hover {
+        background-color: rgba(255, 255, 255, 0.575);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+    }
+
+    /* carrito*/
+
+    .contenedor-nav__imgshop {
+        text-decoration: none;
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+        margin-top: 10px;
+        text-align: right;
+        transition: all 300ms ease;
+        float: right;
+    }
+
+    .contenedor-nav__imgshop:hover {
+        background-color: rgba(255, 255, 255, 0.575);
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+    }
+
+    /*home */
+    .textos-home {
+        height: 350px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .textos-home h1 {
+        font-size: 50px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    /* boton de inicio DreaMenu */
+    .textos-home-link{
+        background: hsla(0, 0%, 22%, 0.493);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        position: relative;
+        display: inline-block;
+        padding: 15px 30px;
+        color: white;
+        letter-spacing: 4px;
+        font-size: 24px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+    .textos-home-link:hover{
+        background: #ffd900;
+        box-shadow: 0 0 10px #ffd900, 0 0 40px #ffd900, 0 0 80px #ffd900;
+        transition-delay: 150ms;
+    }
+
+    /*Combos Burgers */
+
+    .titulo-sect-combos{
+        color: white;
+        background-color: #0a0a0a;
+        font-size: 30px;
+        line-height: 2;
+        font-weight: 800;
+        font-family: sans-serif;
+        text-align: center;
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    }
+
+    .sect-combos{
+        padding: 10px 20px 20px 10px;
+    }
+
+    .menu-combos{
+        width: 100%;
+        max-width: 500px;
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+        justify-content: center;
+    }
+
+    .combos{
+        background: radial-gradient(circle, #fff, #cfcfcf);
+        color: white;
+        width: 370px;
+        text-align: center;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 800;
+        line-height: 1.5;
+        box-shadow: 0 0 20px #000000, 0 0 30px #ffee00, 0 0 15px #000000;
+    }
+
+    .titulo-comb{
+        margin: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 800;
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    }
+
+    .combos-text{
+        margin: 20px;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    }
+
+    .titulo-h4-combos{
+        color: rgb(255, 255, 255);
+        background: radial-gradient(circle, rgb(155, 155, 155), #0e0e0e);
+        font-size: 20px;
+        line-height: 2;
+        font-weight: 800;
+        font-family: sans-serif;
+        text-align: center;
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    }
+
+
+    .combo-img{
+        width: 320px;
+        height: 260px;
+    }
+
+    /*zoom img */
+    .container-img{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-img figure{
+        width: 350px;
+        height: 280px;
+        overflow: hidden;
+        transition: all 500ms ease;
+    }
+
+    /* menu dream */
+
+    .buttom-h2{
+        font-size: 50px;
+    }
+
+    .contenedor-menu {
+        width: 100%;
+        background: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .burgers-menu{
+        background-color: rgb(228, 227, 227);
+        border-radius: 2px;
+        box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.6);
+        width: 400px;
+        margin: 10px;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .burger-img{
+        width: 90%;
+        height: 330px;
+    }
+
+
+        /*  footer  */
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        padding: 15px 30px;
+    }
+
+    .pie-pagina .grupo-1 .box figure img {
+        width: 110px;
+    }
+
+    .pie-pagina .grupo-2 {
+        background-color: #1c1e20;
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .pie-pagina .grupo-2 small {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+}
