@@ -553,7 +553,7 @@
     padding: 0;
     width: 200%;
 
-    animation: cambio 10s infinite alternate;
+    animation: cambio 5s infinite alternate;
 }
 
 .anuncios li{
@@ -1096,7 +1096,7 @@
         display: flex;
         padding: 0;
         width: 200%;
-        animation: cambio 10s infinite alternate;
+        animation: cambio 5s infinite alternate;
     }
 
     .img-horarios{
