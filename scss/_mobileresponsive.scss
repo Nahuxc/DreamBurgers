@@ -1,0 +1,359 @@
+/* ajuste a mobile */
+
+@media only screen and (max-width: 425px) {
+
+    .headerr {
+        width: 100%;
+        height: 870px;
+        background: url(../images/ilustraciones/Ilustracion2.png);
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    /*navegador */
+    .contenedor-nav {
+        padding: 0px 0px 15px 0px;
+        background-color: hsla(0, 0%, 9%, 0.712);
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        color: white;
+    }
+
+    .menu-nav {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0%;
+        width: 40%;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .menu-nav li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        display: block;
+    }
+
+    .menu-nav li {
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .menu-nav li a:hover {
+        background: hsla(197, 100%, 50%, 0.589);
+        transition: 350ms;
+        border-radius: 15%;
+        box-shadow: 0 0 10px #00b7ff, 0 0 30px #01b7ff, 0 0 10px #00a2ff;
+    }
+
+    .contenedor-nav__h1 {
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    .contenedor-nav__img {
+        width: 110px;
+        height: 95px;
+        float: left;
+    }
+
+    .contenedor-nav__text{
+        font-size: 15px;
+    }
+
+    /* perfil*/
+
+    .contenedor-nav__imgperfil {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: right;
+        transition: all 300ms ease;
+        float: right;
+    }
+
+    .contenedor-nav__imgperfil:hover {
+        background-color: rgba(255, 255, 255, 0.575);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+    }
+
+    /* carrito*/
+
+    .contenedor-nav__imgshop {
+        text-decoration: none;
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+        margin-top: 10px;
+        text-align: right;
+        transition: all 300ms ease;
+        float: right;
+    }
+
+    .contenedor-nav__imgshop:hover {
+        background-color: rgba(255, 255, 255, 0.575);
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+    }
+
+    /* boton sobre nosotros */
+    .textos-home-link{
+        top: 0px;
+        padding: 15px 30px 40px 30px;
+    }
+
+    /*home */
+    .textos-home {
+        height: 350px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .textos-home h1 {
+        font-size: 40px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 800;
+    }
+
+    /* boton de inicio sobreNosotros */
+    .textos-home-link {
+        background: hsla(0, 0%, 22%, 0.493);
+        margin: 10px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        position: relative;
+        top: 50px;
+        display: inline-block;
+        padding: 15px 30px 30px 30px;
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+    .textos-home-link:hover {
+        background: hsla(197, 100%, 50%, 0.589);
+        box-shadow: 0 0 10px #00b7ff, 0 0 30px #01b7ff, 0 0 10px #00a2ff;
+        transition-delay: 150ms;
+    }
+
+    .about-restaurant{
+        background: url(../images/Restaurant-img/restaurant.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 830px;
+    }
+
+     .about-restaurant .buttom-h2{
+        background:hsla(0, 0%, 0%, 0.945);
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 800;
+        text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
+    }
+    .about-restaurant .h3-text-rest{
+        background: hsla(0, 0%, 0%, 0.596);
+        border-radius: 25px;
+        padding: 20px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 800;
+        text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
+    }
+    .about-restaurant .text-rest{
+        font-size: 10px;
+        line-height: 2;
+        color: white;
+        text-align: left;
+        font-family: sans-serif;
+        font-weight: 700;
+        display: flex;
+        flex-direction: row;
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+        width: 80%;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box{
+        width: 350px;
+        height: 250px;
+    }
+
+    /* anuncios y horario*/
+
+    .anuncios-section{
+        background-color: #333;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .anuncio-horarios-h2{
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .anuncios-box{
+        width: 93%;
+        background-image: url(../images/ilustraciones/backgroundburger.png);
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
+        margin: 15px;
+    }
+
+    .anuncios ul{
+        display: flex;
+        padding: 0;
+        width: 200%;
+        animation: cambio 5s infinite alternate;
+    }
+
+    .img-horarios{
+        width: 350px;
+        height: 500px;
+        margin: 0px 0px 20px 20px;
+        border-radius: 30px;
+    }
+
+    .anuncios{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .anuncios li{
+        width: 50%;
+        padding: 25px;
+        list-style: none;
+    }
+
+    .img-ilus{
+        width: 340px;
+        height: 420px;
+        border-radius: 30px;
+    }
+
+    /* cambio de img */
+
+    @keyframes cambio{
+        0% {margin-left: 0;}
+        45%{margin-left: 0;}
+
+        55%{margin-left: -100%;}
+        100%{margin-left: -100%;}
+    }
+
+    
+    /* clientes y comentarios */
+
+    .clientes{
+        background: radial-gradient(circle, rgb(17, 110, 122), rgb(25, 173, 173));
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        
+        .clientes-perfil{
+            background: #51e3ee;
+            width: 100%;
+            height: 250px;
+            margin: 10px 10px 30px 0px;
+            box-shadow: 0 0 15px 0 rgb(0, 255, 242);
+        }
+        
+        .clientes-comentario{
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .cliente-nombre{
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 600;
+        }
+        
+        .img-perfil{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+    
+    .clientes-h2{
+        color: white;
+        background-color: #222;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: sans-serif;
+        text-align: center;
+        font-weight: 800;
+    }
+    
+    /*  footer  */
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        padding: 15px 30px;
+    }
+
+    .pie-pagina .grupo-1 .box figure img {
+        width: 120px;
+    }
+
+    .pie-pagina .grupo-2 {
+        background-color: #1c1e20;
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .pie-pagina .grupo-2 small {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+}

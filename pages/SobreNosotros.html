@@ -11,7 +11,7 @@
     <title>Dream Burger's</title>
 </head>
 <body>
-    <header class="header">
+    <header class="headerr">
         <!--Barra de navegacion-->
         <nav class="contenedor-nav">
             <a href="../index.html">
@@ -44,46 +44,65 @@
                     <span id="span4"></span>
                     Mas Informacion
                 </a>
-            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.27,55.77 C220.37,150.50 286.96,0.52 503.10,28.13 L500.00,150.00 L-3.10,151.48 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.27,55.77 C220.37,150.50 286.96,0.52 503.10,28.13 L500.00,150.00 L-3.10,151.48 Z" style="stroke: none; fill: hsla(0, 0%, 0%, 0.945);"></path></svg></div>
         </section>
     </header>
 
     <main>
-        <section>
+        <section class="restaurant">
             <!--Sobre el restaurante y su descripcion-->
-            <div>
+            <div class="about-restaurant">
                 <h2 h2 class="buttom-h2" id="menu">Sobre Nosotros</h2>
-                <h3>Restaurante DreamBurger's</h3>
-                <img src="../images/Restaurant-img/restaurant.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia in quisquam repellendus praesentium iure laboriosam accusamus hic voluptate velit! Quibusdam qui eligendi totam commodi cum laboriosam blanditiis laborum soluta esse minus, temporibus tempora molestiae consectetur molestias reiciendis tenetur tempore officiis ipsa cupiditate veniam? Tempore ea eligendi, aperiam officiis tenetur adipisci.</p>
-
+                <div class="box">
+                    <h3 class="h3-text-rest">Restaurante DreamBurger's</h3>
+                </div>
+                <div class="box">
+                    <img class="img-box" src="../images/Restaurant-img/restauranteimg1.png" alt="">
+                </div>
+                <div class="box">
+                    <p class="text-rest">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora veritatis, consequuntur aperiam numquam iste odio modi ipsum reprehenderit cumque velit sint suscipit repudiandae veniam possimus rerum sapiente nihil voluptate nisi. Voluptatem nulla dolorum placeat! Quae dolores, quisquam fugiat deleniti tempore doloremque facere nulla obcaecati nobis voluptas quo nihil assumenda, hic eos ut dolore fuga a iure necessitatibus optio commodi. Eveniet dolor maxime laudantium voluptatibus, provident doloremque vero magnam asperiores itaque nam voluptate harum vel dolorum eum officiis. Sapiente, optio eum, ut ducimus, excepturi facilis incidunt porro suscipit perspiciatis vitae quos totam libero voluptatibus cum aliquam iure. Beatae minima aperiam quisquam.</p>
+                </div>
             </div>
         </section>
-        <!--menu de horarios-->
-        <section>
-            <div>
-                <h2>Horarios Disponibles</h2>
-                <img src="../images/ilustraciones/horarios.jpg" alt="">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum officia ad quibusdam omnis praesentium vero explicabo ipsa quasi nemo dicta.</p>
+        <!--menu de anuncios-->
+        <section class="anuncios-section">
+            <div class="anuncios-box">
+                <div class="anuncios">
+                    <ul>
+                        <li><a href="../pages/DreaMenu.html"><img class="img-ilus" src="../images/ilustraciones/anuncios2.png" alt="anuncio"></a></li>
+                        <li><a href="../pages/DreaMenu.html"><img class="img-ilus" src="../images/ilustraciones/anuncios1.png" alt="anuncio"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="anuncios-box">
+                <h2 class="anuncio-horarios-h2">HORARIOS</h2>
+                <img class="img-horarios" src="../images/ilustraciones/horarios2.jpg" alt="">
+            </div>
+            <div class="anuncios-box">
+                <div class="anuncios">
+                    <ul>
+                        <li><a href="../pages/DreaMenu.html"><img class="img-ilus" src="../images/ilustraciones/anuncios1.png" alt="anuncio"></a></li>
+                        <li><a href="../pages/DreaMenu.html"><img class="img-ilus" src="../images/ilustraciones/anuncios2.png" alt="anuncio"></a></li>
+                    </ul>
+                </div>
             </div>
         </section>
-                    <!--Clientes y Comentarios-->
-                    <h2>Opiniones De Clientes</h2>
-            <section>
-                <div>
-                    <h3>Name</h3>
-                    <!--Imagen de la persona-->
-                    <img src="../images/Clientes-Img/Cliente1.png" alt="">
-                    <p>Comentario</p>
-                </div>
-                </div>
-                <div>
-                    <h3>Name</h3>
-                    <!--Imagen de la persona-->
-                    <img src="../images/Clientes-Img/cliente2.png" alt="">
-                    <p>Comentario</p>
-                </div>
-            </section>
+        <!-- clientes y comentarios -->
+        <div>
+            <h2 class="clientes-h2">Comentarios De Clientes</h2>
+        </div>
+        <section class="clientes">
+            <div class="clientes-perfil">
+                <h3 class="cliente-nombre">Damian</h3>
+                <img class="img-perfil" src="../images/Clientes-Img/Cliente1.png" alt="">
+                <p class="clientes-comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nemo.</p>
+            </div>
+            <div class="clientes-perfil">
+                <h3 class="cliente-nombre">Daniela</h3>
+                <img class="img-perfil" src="../images/Clientes-Img/Cliente2.png" alt="">
+                <p class="clientes-comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nemo.</p>
+            </div>
+        </section>
     </main>
 
     <!--Pie de pagina-->

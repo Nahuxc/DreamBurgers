@@ -27,8 +27,7 @@
 
 ::-webkit-scrollbar-thumb {
     background: rgb(240, 114, 114);
-    ;
-    border-radius: 3opx;
+    border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -1132,8 +1131,6 @@
         55%{margin-left: -100%;}
         100%{margin-left: -100%;}
     }
-
-
 
     /*  footer  */
     .pie-pagina .grupo-1 {
