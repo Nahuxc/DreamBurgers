@@ -98,9 +98,10 @@
 }
 
 .menu-nav li a:hover {
-    background: hsla(0, 100%, 50%, 0.589);
+    background: hsla(54, 100%, 50%, 0.589);
     border-radius: 15%;
-    box-shadow: 0 0 10px #ff0000, 0 0 30px #ff0101, 0 0 10px #ff0000;
+    box-shadow: 0 0 10px #ffee00, 0 0 30px #d0ff01, 0 0 10px #ffd000;
+    transition: 350ms;
 }
 
 .contenedor-nav__img {
@@ -278,8 +279,9 @@
 }
 
 .sect-combos{
-    background: radial-gradient(circle, #fff, hsla(59, 72%, 50%, 0.76));
     width: 100%;
+    background-image: url(../images/ilustraciones/ilustracionbackground.png);
+    background-repeat: no-repeat;
 }
 
 .menu-combos{
@@ -294,7 +296,7 @@
 
 .combos{
     background: radial-gradient(circle, #fff, #cfcfcf);
-    border-radius: 2px;
+    border-radius: 30px;
     box-shadow: 0 0 60px 0 #000000;
     align-items: center;
     text-align: center;
@@ -332,6 +334,7 @@
 .combo-img{
     width: 450px;
     height: 360px;
+    border-radius: 15px;
 }
 
 /* zoom de img */
@@ -349,6 +352,7 @@
     height: 320px;
     overflow: hidden;
     transition: all 500ms ease;
+    border-radius: 30px;
 }
 
 .container-img figure img{
@@ -384,24 +388,46 @@ section{
 .contenedor-menu{
     width: 100%;
     background: radial-gradient(circle, #fff, #000000);
+    margin: auto;
 }
 
 .burgers-menu{
     background-color: rgb(228, 227, 227);
-    border-radius: 2px;
+    border-radius: 25px;
     box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.6);
     width: 600px;
     display: inline-block;
     justify-content: space-between;
-    margin: 15px;
+    margin: 30px;
     align-items: center;
     text-align: center;
+}
+
+.contenedor-menu__h2 {
+    line-height: 2;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+}
+
+.menu-text{
+    margin: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
 }
 
 
 .burger-img{
     width: 90%;
     height: 430px;
+    border-radius: 15px;
 }
 
 /*boton de compra */
@@ -435,6 +461,10 @@ section{
     transition: 300ms;
     font-size: 18px;
 }
+
+/* clientes */
+
+
 
 /* pie de pagina */
 
@@ -682,6 +712,11 @@ section{
 
     .sect-combos{
         padding: 10px 20px 20px 10px;
+        background-image: url(../images/ilustraciones/backgroundburger2.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1350px;
     }
 
     .menu-combos{
@@ -738,22 +773,22 @@ section{
 
 
     .combo-img{
-        width: 320px;
-        height: 260px;
+        width: 300px;
+        height: 240px;
     }
 
     /*zoom img */
     .container-img{
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .container-img figure{
-        width: 350px;
-        height: 280px;
+        width: 320px;
+        height: 260px;
         overflow: hidden;
         transition: all 500ms ease;
     }
@@ -765,23 +800,45 @@ section{
     }
 
     .contenedor-menu {
-        width: 100%;
         background: rgb(0, 0, 0);
-        display: flex;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
         justify-content: center;
-        flex-direction: column;
+        gap: 0px;
     }
 
     .burgers-menu{
         background-color: rgb(228, 227, 227);
-        border-radius: 2px;
-        box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.6);
-        width: 400px;
-        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.6);
+        width: 380px;
         display: inline-block;
-        justify-content: space-between;
+        justify-content: space-around;
+        margin: 25px;
         align-items: center;
         text-align: center;
+    }
+
+    .contenedor-menu__h2 {
+        line-height: 2;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        margin: 20px;
+        font-family: sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #0c1116;
+    }
+
+    .menu-text {
+        margin: 20px;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 7px #222, 2px 2px 7px rgb(0, 0, 0), 2px 2px 7px #0c1116;
     }
 
     .burger-img{
