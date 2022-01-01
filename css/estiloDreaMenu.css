@@ -280,10 +280,8 @@
 }
 
 .sect-combos{
-    width: 100%;
-    background-image: url(../images/ilustraciones/ilustracionbackground.png);
+    background-image: url(../images/ilustraciones/Menu-img2.png);
     background-repeat: no-repeat;
-    width: 100%;
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -307,7 +305,7 @@
     box-shadow: 0 0 60px 0 #000000;
     align-items: center;
     text-align: center;
-    box-shadow: 0 0 20px #000000, 0 0 30px #f7fb02, 0 0 15px #000000;
+    box-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 15px #000000;
 }
 
 .titulo-comb{
@@ -378,7 +376,7 @@
 
 .buttom-h2{
     color: white;
-    background-color: hsla(0, 0%, 0%, 0.904);
+    background-color: hsl(0, 0%, 0%);
     text-decoration: none;
     font-size: 100px;
     font-family: sans-serif;
@@ -387,20 +385,16 @@
     text-shadow: 2px 2px 7px rgb(105, 105, 105), 2px 2px 7px rgb(223, 223, 223), 2px 2px 7px #0c1116;
 }
 
-section{
-    display: flex;
-    justify-content: space-between;
-}
 
 .contenedor-menu{
     width: 100%;
-    background: radial-gradient(circle, #333, #222);
+    background: url(../images/ilustraciones/Menu-img2.png);
     display: flex;
     justify-content: space-evenly;
 }
 
 .burgers-menu{
-    background-color: rgb(209, 209, 209);
+    background-color: rgba(0, 0, 0, 0.972);
     border-radius: 25px;
     box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.931);
     width: 600px;
@@ -492,7 +486,10 @@ section{
 }
 
 .clientes-perfil{
-    background: #f1bd4c;
+    background: url(../images/Clientes-Img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -776,11 +773,11 @@ section{
 
     .sect-combos{
         padding: 10px 20px 20px 10px;
-        background-image: url(../images/ilustraciones/backgroundburger2.png);
+        background-image: url(../images/ilustraciones/Menu-img2.png);
         background-position-x: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 1350px;
+        height: 1250px;
     }
 
     .menu-combos{
@@ -803,7 +800,7 @@ section{
         font-family: sans-serif;
         font-weight: 800;
         line-height: 1.5;
-        box-shadow: 0 0 20px #000000, 0 0 30px #ffee00, 0 0 15px #000000;
+        box-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 15px #000000;
     }
 
     .titulo-comb{
@@ -864,7 +861,7 @@ section{
     }
 
     .contenedor-menu {
-        background: rgb(0, 0, 0);
+        background: #302f2f;
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr;
@@ -874,9 +871,9 @@ section{
     }
 
     .burgers-menu{
-        background-color: rgb(228, 227, 227);
+        background-color: rgba(0, 0, 0, 0.972);
         border-radius: 15px;
-        box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.6);
+        box-shadow: 0 0 10px 0 rgba(131, 131, 131, 0.6);
         width: 380px;
         display: inline-block;
         justify-content: space-around;
@@ -934,7 +931,6 @@ section{
     }
 
     .clientes-perfil{
-
         width: 100%;
         height: 250px;
         margin: 10px 10px 30px 0px;

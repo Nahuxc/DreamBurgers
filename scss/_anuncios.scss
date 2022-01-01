@@ -1,6 +1,10 @@
 /* anuncios y horario */
 .anuncios-section{
-    background-color: rgb(56, 42, 5);
+    // background-color: rgb(56, 42, 5);
+    background: url(../images/Clientes-Img/fondo-2.png);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -21,7 +25,7 @@
     background-image: url(../images/ilustraciones/backgroundburger.png);
     background-repeat: no-repeat;
     border-radius: 30px;
-    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
     margin: 15px;
 }
 
