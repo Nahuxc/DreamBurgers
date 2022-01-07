@@ -5,24 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link Css-->
-    <link rel="stylesheet" type="text/css" href="../css/estiloDreaMenu.css">
-    <!--Icono Y titulo-->
+    <link rel="stylesheet" type="text/css" href="../css/estilogeneral.css">
+    <!------Icono y titulo------->
     <link rel="shortcut icon" href="../images/icons/logo2.ico" type="image/x-icon">
-    <title>Dream Burger's</title>
+    <title>DreaMenu | Dream Burger's</title>
 </head>
 <body>
-        <header class="header">
+        <header class="headerr">
             <!--Barra de navegacion-->
             <nav class="contenedor-nav">
-                <a href="../index.html">
-                    <img class="contenedor-nav__img" src="../images/icons/logo2.png" alt="">
-                </a>
-                <a href="#">
-                    <img class="contenedor-nav__imgperfil" src="../images/icons/perfil-del-usuario.png" alt="">
-                </a>
-                <a href="#">
-                    <img class="contenedor-nav__imgshop" src="../images/icons/shopping-cart.png" alt="">
-                </a>
+                <div class="banner">
+                    <a href="../index.html">
+                        <img src="../images/icons/logo2.png" alt="logo">
+                    </a>
+                </div>
+                <div class="usuario">
+                    <a href="#">
+                        <img src="../images/icons/perfil-del-usuario.png" alt="usuario">
+                    </a>
+                </div>
+                <div class="carrito">
+                    <a href="#">
+                        <img src="../images/icons/shopping-cart.png" alt="carrito">
+                    </a>
+                </div>
                 <h1 class="contenedor-nav__h1">Dream Burger's</h1>
                 <div class="nav__text">
                     <ul class="menu-nav">
@@ -48,7 +54,7 @@
         </header>
 
     <main>
-        <div>
+        <div class="titulos-combos-inicio">
             <h2 class="titulo-sect-combos">Dream Combos</h2>
             <h4 class="titulo-h4-combos">COMBOS MAS PEDIDOS POR LA GENTE</h4>
         </div>
@@ -58,7 +64,7 @@
                     <h3 class="titulo-comb">Dream Combo Papas</h3>
                     <div class="container-img">
                         <figure>
-                            <img class="combo-img" src="../images/Hamburgesas-sections/comboburger1.png" alt="">
+                            <img class="combo-img" src="../images/Hamburgesas-sections/comboburger1.png" alt="combo-burger">
                         </figure>
                     </div>
                     <div class="combos-text">
@@ -74,7 +80,7 @@
                     <h3 class="titulo-comb">Dream Combo Papas</h3>
                     <div class="container-img">
                         <figure>
-                            <img class="combo-img" src="../images/Hamburgesas-sections/burgercombo2.png" alt="">
+                            <img class="combo-img" src="../images/Hamburgesas-sections/burgercombo2.png" alt="combo-burger">
                         </figure>
                     </div>
                     <div class="combos-text">
@@ -92,40 +98,54 @@
         <div>
             <h2 class="buttom-h2" id="menu">DreaMenu</h2>
         </div>
-        <section class="contenedor-menu">
-            <div class="burgers-menu">
+        <section class="menu">
+            <div class="contenedor-menu">
                 <div class="burger-menu">
-                    <h2 class="contenedor-menu__h2">Dream normal</h2>
-                    <img class="burger-img" src="../images/Hamburgesas-sections/hamburgeesa1.jpg" alt="">
+                    <h3 class="contenedor-menu__h3">Dream Normal</h3>
+                    <div class="container-img">
+                        <figure>
+                            <img class="contenedor-menu__img" src="../images/Hamburgesas-sections/hamburgeesa1.jpg"
+                                alt="Hamburgesa-Dream">
+                        </figure>
+                    </div>
                     <div class="menu-text">
-                        <p>Precio:$539</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, ipsum.</p>
+                        <p>Precio:$350</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sed dicta adipisci optio
+                            tenetur obcaecati! Enim velit commodi qui rerum?</p>
                     </div>
                     <div class="contenedor-BuyButtom">
                         <input class="buttom" type="submit" value="Añadir Al Carrito">
                     </div>
                 </div>
-            </div>
-            <div class="burgers-menu">
                 <div class="burger-menu">
-                    <h2 class="contenedor-menu__h2">Dream especial</h2>
-                    <img class="burger-img" src="../images/Hamburgesas-sections/burger2.png" alt="">
+                    <h3 class="contenedor-menu__h3">Dream Master</h3>
+                    <div class="container-img">
+                        <figure>
+                            <img class="contenedor-menu__img" src="../images/Hamburgesas-sections/burger1.jpg"
+                                alt="Hamburgesa-Dream">
+                        </figure>
+                    </div>
                     <div class="menu-text">
-                        <p>Precio:$539</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, ipsum.</p>
+                        <p>Precio:$420</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sed dicta adipisci optio
+                            tenetur obcaecati! Enim velit commodi qui rerum?</p>
                     </div>
                     <div class="contenedor-BuyButtom">
                         <input class="buttom" type="submit" value="Añadir Al Carrito">
                     </div>
                 </div>
-            </div>
-            <div class="burgers-menu">
                 <div class="burger-menu">
-                    <h2 class="contenedor-menu__h2">Dream pollo</h2>
-                    <img class="burger-img" src="../images/Hamburgesas-sections/hamburgesa2.jpg" alt="">
+                    <h3 class="h3-pollo">Dream Pollo</h3>
+                    <div class="container-img">
+                        <figure>
+                            <img class="contenedor-menu__img" src="../images/Hamburgesas-sections/hamburgesa2.jpg"
+                                alt="Hamburgesa-Dream">
+                        </figure>
+                    </div>
                     <div class="menu-text">
-                        <p>Precio:$539</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, ipsum.</p>
+                        <p>Precio:$300</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sed dicta adipisci optio
+                            tenetur obcaecati! Enim velit commodi qui rerum?</p>
                     </div>
                     <div class="contenedor-BuyButtom">
                         <input class="buttom" type="submit" value="Añadir Al Carrito">
@@ -133,40 +153,54 @@
                 </div>
             </div>
         </section>
-        <section class="contenedor-menu">
-            <div class="burgers-menu">
+        <section class="menu">
+            <div class="contenedor-menu">
                 <div class="burger-menu">
-                    <h2 class="contenedor-menu__h2">Dream Master</h2>
-                    <img class="burger-img" src="../images/Hamburgesas-sections/burger1.jpg" alt="">
+                    <h3 class="contenedor-menu__h3">Dream Classic</h3>
+                    <div class="container-img">
+                        <figure>
+                            <img class="contenedor-menu__img" src="../images/Hamburgesas-sections/ClassicBurger.jpg"
+                                alt="Hamburgesa-Dream">
+                        </figure>
+                    </div>
                     <div class="menu-text">
-                        <p>Precio:$539</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, ipsum.</p>
+                        <p>Precio:$350</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sed dicta adipisci optio
+                            tenetur obcaecati! Enim velit commodi qui rerum?</p>
                     </div>
                     <div class="contenedor-BuyButtom">
                         <input class="buttom" type="submit" value="Añadir Al Carrito">
                     </div>
                 </div>
-            </div>
-            <div class="burgers-menu">
                 <div class="burger-menu">
-                    <h2 class="contenedor-menu__h2">Dream Doble</h2>
-                    <img class="burger-img" src="../images/Hamburgesas-sections/burger3.png" alt="">
+                    <h3 class="contenedor-menu__h3">Dream Especial</h3>
+                    <div class="container-img">
+                        <figure>
+                            <img class="contenedor-menu__img" src="../images/Hamburgesas-sections/burger2.png"
+                                alt="Hamburgesa-Dream">
+                        </figure>
+                    </div>
                     <div class="menu-text">
-                        <p>Precio:$539</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, ipsum.</p>
+                        <p>Precio:$420</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sed dicta adipisci optio
+                            tenetur obcaecati! Enim velit commodi qui rerum?</p>
                     </div>
                     <div class="contenedor-BuyButtom">
                         <input class="buttom" type="submit" value="Añadir Al Carrito">
                     </div>
                 </div>
-            </div>
-            <div class="burgers-menu">
                 <div class="burger-menu">
-                    <h2 class="contenedor-menu__h2">Dream Clasic</h2>
-                    <img class="burger-img" src="../images/Hamburgesas-sections/ClassicBurger.jpg" alt="">
+                    <h3 class="h3-pollo">Dream Doble</h3>
+                    <div class="container-img">
+                        <figure>
+                            <img class="contenedor-menu__img" src="../images/Hamburgesas-sections/burger3.png"
+                                alt="Hamburgesa-Dream">
+                        </figure>
+                    </div>
                     <div class="menu-text">
-                        <p>Precio:$539</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, ipsum.</p>
+                        <p>Precio:$300</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore sed dicta adipisci optio
+                            tenetur obcaecati! Enim velit commodi qui rerum?</p>
                     </div>
                     <div class="contenedor-BuyButtom">
                         <input class="buttom" type="submit" value="Añadir Al Carrito">
@@ -181,13 +215,13 @@
         <section class="clientes">
             <div class="clientes-perfil">
                 <h3 class="cliente-nombre">Damian</h3>
-                <img class="img-perfil" src="../images/Clientes-Img/Cliente1.png" alt="">
-                <p class="clientes-comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nemo.</p>
+                <img class="img-perfil" src="../images/Clientes-Img/Cliente1.png" alt="Foto-Perfil">
+                <p class="clientes-comentario">Me encanta el menu dinamico que dispone este restaurante, Deberian pedir La Dream Especial.</p>
             </div>
             <div class="clientes-perfil">
                 <h3 class="cliente-nombre">Daniela</h3>
-                <img class="img-perfil" src="../images/Clientes-Img/Cliente2.png" alt="">
-                <p class="clientes-comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nemo.</p>
+                <img class="img-perfil" src="../images/Clientes-Img/Cliente2.png" alt="Foto-Perfil">
+                <p class="clientes-comentario">Excelentes Hamburgesas, recomiendo pedir la Dream Doble, sin duda una de las mejores.<p>
             </div>
         </section>
     </main>
@@ -197,23 +231,27 @@
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="../images/icons/logo2.png" alt="">
+                        <img src="../images/icons/logo2.png" alt="logo-dreamburger">
                     </a>
                 </figure>
             </div>
         <div class="box">
             <h2>Sobre Nosotros</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero repudiandae eveniet iure libero est velit tempore molestias eos vitae? Quibusdam, assumenda aut. Optio quasi sunt facere molestiae, nisi dignissimos!</p>
+            <p>Nuestro restaurante DreamBurgers es uno de los mas famoso del pueblo San Javier,
+                cuenta con una variedad de hamburgesas impresionante, y un personal increible.</p>
         </div>
         <!--Redes-->
         <div class="box">
+            <h2>Numero de Contacto</h2>
+            <p>Ubicacion:san javier, montegrande</p>
+            <p>contacto: +54 11 7383-8493</p>
             <h2>SIGUENOS</h2>
             <div class="red-social">
                 <a href="#" class="facebook">
-                    <img class="facebook-logo" src="../images/icons/logoface.png" alt="">
+                    <img class="facebook-logo" src="../images/icons/logoface.png" alt="facebook-logo">
                 </a>
                 <a href="#" class="instragram">
-                    <img class="instragram-logo" src="../images/icons/logoInstagram.png" alt="">
+                    <img class="instragram-logo" src="../images/icons/logoInstagram.png" alt="instragram">
                 </a>
             </div>
         </div>
