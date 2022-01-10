@@ -1,0 +1,203 @@
+@import "variables";
+
+.body-servicios{
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    background:  url(../images/Restaurant-img/restauranteimg1.png);
+    background-size: cover;
+    position: relative;
+   color: $c-blanco;
+   font-family: sans-serif;
+   font-weight: 800;
+   padding: 0 1 .5rem;
+}
+
+.header-servicios{
+    background: $c-negro-2;
+    .contenedor-nav {
+        padding: 0px 30px 15px 0;
+        background-color: hsla(0, 0%, 9%, 0.712);
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 800;
+        color: $c-blanco;
+        z-index: 2;
+        .banner a{
+            float: left;
+            img{
+                padding: 5px 10px 20px 20px;
+                width: 125px;
+                height: 110px;
+            }
+        }
+        .usuario a img{
+            text-decoration: none;
+            width: 60px;
+            height: 60px;
+            line-height: 45px;
+            margin-right: 10px;
+            margin-top: 10px;
+            text-align: right;
+            transition: all 300ms ease;
+            float: right;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.575);
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                }
+        }
+        .carrito a img{
+            text-decoration: none;
+            width: 55px;
+            height: 55px;
+            line-height: 45px;
+            margin-right: 20px;
+            margin-top: 10px;
+            text-align: right;
+            transition: all 300ms ease;
+            float: right;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.575);
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 20%;
+                    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                }
+        }
+        h1 {
+            font-size: 30px;
+            padding: 20px 70px 10px 10px;
+            line-height: 2;
+            color: $c-blanco;
+            text-align: left;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-weight: 800;
+            display: flex;
+            flex-direction: row;
+            text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
+        }
+
+        .nav__text {
+            font-size: 20px;
+            text-decoration: none;
+            text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
+            .menu-nav {
+                display: flex;
+                justify-content: space-evenly;
+                list-style: none;
+                padding: 0%;
+                width: 50%;
+                max-width: 1000px;
+                margin: auto;
+                li {
+                    display: inline-block;
+                    text-align: center;
+                    a {
+                        text-decoration: none;
+                        color: $c-blanco;
+                        padding: 10px;
+                        display: block;
+                        &:hover {
+                            background: hsla(0, 100%, 50%, 0.589);
+                            transition: 350ms;
+                            border-radius: 15%;
+                            box-shadow: 0 0 10px $c-rojo, 0 0 30px $c-rojo, 0 0 10px $c-rojo;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.comunicate-menu{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5rem;
+    .titulo-comunicate{
+        text-align: center;
+        font-size: 3em;
+        span{
+            color: #b70e21;
+            text-shadow: 2px 2px 1px $c-blanco, 2px 2px 2px $c-blanco;
+        }
+    }
+    .contacto-form{
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+        h3{
+            text-align: left;
+            font-size: 2em;
+            padding: 1em;
+        }
+        .form-cont{
+            background: #222222;
+            form{
+                margin: 0;
+                padding: 1em;
+            }
+        }
+        .form-info-cont{
+            background: #000;
+            list-style: none;
+            padding: 10px;
+        }
+        .form-info-cont h4,
+        .form-info-cont ul,
+        .form-info-cont p{
+            text-align: center;
+            margin: 0 0 1rem;
+        }
+        .form-info-cont ul li{
+            list-style: none;
+            padding: .3em;
+        }
+    }
+    .contacto-form > *{
+        padding: 2em;
+    }
+    .contacto-form form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacto-form form .block-ser{
+        grid-column: 1 / 3;
+    }
+
+    .contacto-form form p{
+        margin: 0;
+        padding: 1em;
+    }
+    .contacto-form form button,
+    .contacto-form form input,
+    .contacto-form form textarea{
+        width: 100%;
+        padding: .7em;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #d63031;
+        outline: none;
+        color: $c-blanco;
+    }
+
+    .contacto-form form button{
+        background: #b70e21;
+        border: 0;
+        text-transform: uppercase;
+        padding: 1em;
+        color: $c-negro-2;
+    }
+
+    .contacto-form form button:hover,
+    .contacto-form form button:focus{
+        background: #d63031;
+        color: $c-blanco;
+        transition: background-color 1s ease-out;
+        outline: 0;
+    }
+}

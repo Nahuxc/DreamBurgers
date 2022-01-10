@@ -8,11 +8,10 @@
     <link rel="stylesheet" type="text/css" href="../css/estilogeneral.css">
     <!------Icono y titulo------->
     <link rel="shortcut icon" href="../images/icons/logo2.ico" type="image/x-icon">
-    <title>Servicios:Ordena Tu pedido | Dream Burger's</title>
+    <title>Servicios: Ordena Tu pedido | Dream Burger's</title>
 </head>
-<body>
-    <header>
-        <header class="header">
+<body class="body-servicios">
+    <header class="header-servicios">
             <!--Barra de navegacion-->
             <nav class="contenedor-nav">
                 <div class="banner">
@@ -42,45 +41,101 @@
             </nav>
     </header>
 
+    <!------ SERVICIOS-Ordenar tu pedido ------->
     <main>
-        <section>
-            <!--Formulario de pedidos-->
-            <div>
-                <form action="">
-                <fieldset>
-                    <legend>Formulario de contacto para Pedidos</legend>
-                    <div>
-                        <label for="Nombre">Nombre:</label>
-                        <input type="text" name="name" required placeholder="Escribe tu nombre">
-                    </div>
-                    <div>
-                        <label for="Nombre">Apellido:</label>
-                        <input type="text" name="name" required placeholder="Escribe tu apellido">
-                    </div>
-                    <div>
-                        <label for="Email">Email:</label>
-                        <input type="Email" name="Email" required placeholder="Ingresa tu Email">
-                    </div>
-                    <div>
-                        <label for="time">Seleccione el horario de entrega:</label>
-                        <input type="time" required>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="Comentario">Si deseas añadirle algun elemento extra escribe aqui:</label>
-                        <br>
-                        <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar Datos">
-                    </div>
-                </fieldset>
-                </form>
+        <div class="comunicate-menu">
+            <h1 class="titulo-comunicate">Pedi Tu<span> Orden </span></h1>
+            <div class="contacto-form">
+                <div class="form-cont">
+                    <h3>Ordena Tu Pedido</h3>
+                    <form action="">
+                        <p>
+                            <label for="fullname">Nombre Completo</label>
+                            <input type="text" name="fullname" id="fullname" required>
+                        </p>
+                        <p>
+                            <label>Correo Electronico</label>
+                            <input type="email" name="email" required>
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" name="phone" required >
+                        </p>
+                        <p>
+                            <label>Reportar Problema</label>
+                            <input type="text" name="affair" >
+                        </p>
+                        <p class="block-ser">
+                            <label>Editar y Añadir su pedido</label>
+                            <textarea name="message" rows="3" style="resize: none;"></textarea>
+                        </p>
+                        <p class="block-ser">
+                            <button type="submit">
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="form-info-cont">
+                    <h4>Mas Informacion</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope-square"></i>DreamBurgers-info@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt">Ubicacion</i></li>
+                        <li><i class="fas fa-phone">Ubicacion</i>+54 1234-4443</li>
+                    </ul>
+                    <p>En caso de tener un error reportarlo para ayudarnos a mejorar nuestro servicios</p>
+                    <p>DreamBurgers.com</p>
+                </div>
             </div>
-        </section>
+        </div>
+        <!------ SERVICIOS-reportar errores ------->
+        <div class="comunicate-menu">
+            <h1 class="titulo-comunicate">Reporta tu<span> Error </span></h1>
+            <div class="contacto-form">
+                <div class="form-cont">
+                    <h3>Envia Tu Reporte/Error</h3>
+                    <form action="">
+                        <p>
+                            <label for="fullname">Nombre Completo</label>
+                            <input type="text" name="fullname" id="fullname" required>
+                        </p>
+                        <p>
+                            <label>Correo Electronico</label>
+                            <input type="email" name="email" required >
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" name="phone" required >
+                        </p>
+                        <p>
+                            <label>Reportar Problema</label>
+                            <input type="text" name="affair" >
+                        </p>
+                        <p class="block-ser">
+                            <label>Detalle de su error o Problema</label>
+                            <textarea name="message" rows="3" style="resize: none;"></textarea>
+                        </p>
+                        <p class="block-ser">
+                            <button type="submit">
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="form-info-cont">
+                    <h4>Mas Informacion</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope-square"></i>DreamBurgers-info@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt">Ubicacion</i></li>
+                        <li><i class="fas fa-phone">Ubicacion</i>+54 1234-4443</li>
+                    </ul>
+                    <p>En caso de tener un error reportarlo para ayudarnos a mejorar nuestro servicios</p>
+                    <p>DreamBurgers.com</p>
+                </div>
+            </div>
+        </div>
     </main>
-
-            <!--Pie de pagina-->
+    <!--Pie de pagina-->
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -98,14 +153,14 @@
         <!--Redes-->
         <div class="box">
             <h2>Numero de Contacto</h2>
-            <p>Ubicacion:san javier, montegrande</p>
+            <p>Ubicacion: san javier, montegrande</p>
             <p>contacto: +54 11 7383-8493</p>
             <h2>SIGUENOS</h2>
             <div class="red-social">
-                <a href="#" class="facebook">
+                <a href="https://es-la.facebook.com/" Target="_blank" class="facebook">
                     <img class="facebook-logo" src="../images/icons/logoface.png" alt="facebook-logo">
                 </a>
-                <a href="#" class="instragram">
+                <a href="https://www.instagram.com/" Target="_blank" class="instragram">
                     <img class="instragram-logo" src="../images/icons/logoInstagram.png" alt="instragram-logo">
                 </a>
             </div>
@@ -114,6 +169,8 @@
             <small>&copy;<b>DreamBurger's Desing / Nahuel Alexander Coronel</b></small>
         </div>
     </footer>
+    <!------FONT AWESOME-------->
+    <script src="https://kit.fontawesome.com/146efbe387.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
