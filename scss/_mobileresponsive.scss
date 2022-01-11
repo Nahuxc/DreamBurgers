@@ -41,7 +41,7 @@
                             width: 50px;
                             height: 50px;
                             border-radius: 50%;
-                            box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                            @include sombras-C-P
                         }
                 }
                 .carrito a img{
@@ -58,7 +58,7 @@
                             width: 50px;
                             height: 50px;
                             border-radius: 20%;
-                            box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                            @include sombras-C-P
                         }
                 }
                 h1 {
@@ -145,7 +145,7 @@
                     }
             }
     }
-        .headerr {
+        .header-dreamenu {
             background: url(../images/ilustraciones/Menu-img.png);
             background-position-x: center;
             background-size: cover;
@@ -181,7 +181,7 @@
                             width: 50px;
                             height: 50px;
                             border-radius: 50%;
-                            box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                            @include sombras-C-P
                         }
                 }
                 .carrito a img{
@@ -198,7 +198,7 @@
                             width: 50px;
                             height: 50px;
                             border-radius: 20%;
-                            box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                            @include sombras-C-P
                         }
                 }
                 h1 {
@@ -277,7 +277,7 @@
                     }
             }
     }
-        .headerrr {
+        .header-sobrenosotros {
             background: url(../images/Restaurant-img/restaurant.png);
             background-position-x: right;
             background-size: cover;
@@ -313,7 +313,7 @@
                             width: 50px;
                             height: 50px;
                             border-radius: 50%;
-                            box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                            @include sombras-C-P
                         }
                 }
                 .carrito a img{
@@ -330,7 +330,7 @@
                             width: 50px;
                             height: 50px;
                             border-radius: 20%;
-                            box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                            @include sombras-C-P
                         }
                 }
                 h1 {
@@ -442,7 +442,7 @@
                         width: 50px;
                         height: 50px;
                         border-radius: 50%;
-                        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                        @include sombras-C-P
                     }
             }
             .carrito a img{
@@ -459,7 +459,7 @@
                         width: 50px;
                         height: 50px;
                         border-radius: 20%;
-                        box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                        @include sombras-C-P
                     }
             }
             h1 {

@@ -48,7 +48,7 @@
                     width: 70px;
                     height: 70px;
                     border-radius: 50%;
-                    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                    @include sombras-C-P
                 }
         }
         .carrito a img{
@@ -66,11 +66,11 @@
                     width: 70px;
                     height: 70px;
                     border-radius: 20%;
-                    box-shadow: 0 0 15px #aaa7a7, 0 0 40px #b1afaf, 0 0 80px #b4b1b1;
+                    @include sombras-C-P
                 }
         }
-        h1 {
-            font-size: $fontnavh1;
+        h2 {
+            font-size: $h2;
             padding: 20px 70px 10px 10px;
             line-height: 2;
             color: $c-blanco;

@@ -6,10 +6,39 @@ $c-gris:#aaa7a7;
 $c-negro-1:#222;
 $c-negro-2:#333;
 $c-blanco:white;
+$c-marron: #f734;
+$c-grey-1:#aaa7a7;
+$c-grey-2:#b1afaf;
+$c-grey-3:#b4b1b1;
+
 
 //  ancho
 $wdt:100%;
 
 // tamaño de fuente
-$fonth1: 150px;
-$fontnavh1: 30px;
+$fonth2: 100px;
+
+
+// map-font-size h#
+$font-map: (
+    h1:150px,
+    h2:30px,
+    h3:50px
+);
+
+$h1: map-get($font-map, h1);
+
+$h2: map-get($font-map, h2);
+
+$h3: map-get($font-map, h3);
+
+//mixin tamaño del boton
+@mixin size-btn ($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+//mixin hover sombras carrito/perfil
+@mixin sombras-C-P {
+    box-shadow: 0 0 15px $c-grey-1, 0 0 40px $c-grey-2, 0 0 80px $c-grey-3;
+}

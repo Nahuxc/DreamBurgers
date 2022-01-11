@@ -7,14 +7,14 @@
         color: white;
         background-color: hsl(0, 0%, 0%);
         text-decoration: none;
-        font-size: 100px;
+        font-size: $fonth2;
         font-family: sans-serif;
         text-align: center;
         font-weight: 800;
         text-shadow: 2px 2px 7px rgb(105, 105, 105), 2px 2px 7px rgb(223, 223, 223), 2px 2px 7px #0c1116;
     }
     .titulo-h4-combos{
-        color: white;
+        color: $c-blanco;
         background-color: hsla(0, 0%, 0%, 0.904);
         text-decoration: none;
         font-size: 30px;
@@ -32,12 +32,12 @@
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: $wdt;
     height: 700px;
     display: flex;
     justify-content: space-around;
     .menu-combos{
-        width: 100%;
+        width: $wdt;
         display: flex;
         justify-content: space-evenly;
         .combos{
@@ -72,7 +72,7 @@
             }
             /* zoom de img */
             .container-img{
-                width: 100%;
+                width: $wdt;
                 height: 40vh;
                 display: flex;
                 justify-content: center;
@@ -84,7 +84,7 @@
                     transition: all 500ms ease;
                     border-radius: 30px;
                     img{
-                        width: 100%;
+                        width: $wdt;
                         height: 100%;
                         transition: all 500ms ease;
                         .contenedor-menu__img {
@@ -113,7 +113,7 @@
                 border-radius: 15px;
             }
             .contenedor-BuyButtom {
-                width: 100%;
+                width: $wdt;
                 display: flex;
                 justify-content: space-around;
                 .buttom {
@@ -129,6 +129,7 @@
                     cursor: pointer;
                     border-radius: 5px;
                     margin: 20px;
+                    @include size-btn(50%, 50px);
                     &:hover{
                         background-color: #f86e6e;
                         color: black;
@@ -163,7 +164,7 @@
             text-align: center;
             h3 {
                 color: $c-blanco;
-                font-size: 50px;
+                font-size: $h3;
                 font-family: sans-serif;
                 font-weight: 800;
                 font-style: normal;
@@ -171,7 +172,7 @@
             }
             .h3-pollo {
                 color: rgb(255, 255, 255);
-                font-size: 50px;
+                font-size: $h3;
                 font-family: sans-serif;
                 font-weight: 800;
                 font-style: normal;
@@ -180,7 +181,7 @@
             }
             /* zoom de img */
             .container-img{
-                width: 100%;
+                width: $wdt;
                 height: 40vh;
                 display: flex;
                 justify-content: center;
@@ -229,15 +230,13 @@
             }
             /* boton de compra */
             .contenedor-BuyButtom {
-                width: 100%;
                 display: flex;
                 justify-content: space-around;
+                @include size-btn(100%, 60px);
                 .buttom {
                     background: hsla(0, 0%, 8%, 0.815);
                     color: rgb(255, 255, 255);
                     display: inline;
-                    width: 200px;
-                    height: 50px;
                     font-family: sans-serif;
                     font-size: 15px;
                     font-weight: 600;
@@ -245,6 +244,7 @@
                     cursor: pointer;
                     border-radius: 5px;
                     margin: 0px;
+                    @include size-btn(50%, 50px);
                     &:hover{
                         background-color: #f86e6e;
                         color: black;
@@ -262,7 +262,7 @@
     color: white;
     background-color: hsla(0, 0%, 0%, 0.904);
     text-decoration: none;
-    font-size: 100px;
+    font-size: $fonth2;
     font-family: sans-serif;
     text-align: center;
     font-weight: 800;
