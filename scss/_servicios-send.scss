@@ -159,6 +159,9 @@
         .form-info-cont ul li{
             list-style: none;
             padding: .3em;
+            a{
+                color: $c-blanco;
+            }
         }
     }
     .contacto-form > *{

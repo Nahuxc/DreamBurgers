@@ -1541,6 +1541,10 @@ body {
   padding: .3em;
 }
 
+.comunicate-menu .contacto-form .form-info-cont ul li a {
+  color: white;
+}
+
 .comunicate-menu .contacto-form > * {
   padding: 2em;
 }
