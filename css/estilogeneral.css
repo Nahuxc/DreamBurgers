@@ -1499,7 +1499,7 @@ body {
 }
 
 .comunicate-menu .titulo-comunicate span {
-  color: #b70e21;
+  color: #c55d07;
   text-shadow: 2px 2px 1px white, 2px 2px 2px white;
 }
 
@@ -1570,13 +1570,13 @@ body {
   padding: .7em;
   border: none;
   background: none;
-  border-bottom: 1px solid #d63031;
+  border-bottom: 1px solid #f06617;
   outline: none;
   color: white;
 }
 
 .comunicate-menu .contacto-form form button {
-  background: #b70e21;
+  background: #f06617;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
@@ -2717,7 +2717,7 @@ body {
     width: 30%;
     background-image: url(../images/ilustraciones/backgroundburger.png);
     background-repeat: no-repeat;
-    border-radius: 30px;
+    border-radius: 50px;
     -webkit-box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
             box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
     margin: 15px;
@@ -2741,7 +2741,10 @@ body {
     list-style: none;
   }
   .anuncios-section .anuncios-box .anuncios ul li a .img-ilus {
-    width: 380px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 370px;
     height: 430px;
     border-radius: 30px;
   }
@@ -2754,8 +2757,8 @@ body {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 360px;
-    height: 400px;
+    width: 370px;
+    height: 415px;
     margin: 0px 0px 0px 35px;
     border-radius: 30px;
   }

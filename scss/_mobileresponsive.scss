@@ -873,7 +873,7 @@
                 width: 30%;
                 background-image: url(../images/ilustraciones/backgroundburger.png);
                 background-repeat: no-repeat;
-                border-radius: 30px;
+                border-radius: 50px;
                 box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
                 margin: 15px;
                 .anuncios{
@@ -890,7 +890,8 @@
                             list-style: none;
                             a{
                                 .img-ilus{
-                                    width: 380px;
+                                    align-items: center;
+                                    width: 370px;
                                     height: 430px;
                                     border-radius: 30px;
                                 }
@@ -907,8 +908,8 @@
                     text-align: center;
                 }
                 .img-horarios{
-                    width: 360px;
-                    height: 400px;
+                    width: 370px;
+                    height: 415px;
                     margin: 0px 0px 0px 35px;
                     border-radius: 30px;
                 }
@@ -968,7 +969,6 @@
                         width: 50%;
                         margin: 10px;
                     }
-    
                     .box{
                         display: flex;
                         flex-direction: column;

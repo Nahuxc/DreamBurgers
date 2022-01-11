@@ -127,7 +127,7 @@
         text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
         line-height: 2;
         span{
-            color: #b70e21;
+            color: $c-naranja-w;
             text-shadow: 2px 2px 1px $c-blanco, 2px 2px 2px $c-blanco;
         }
     }
@@ -184,13 +184,13 @@
         padding: .7em;
         border: none;
         background: none;
-        border-bottom: 1px solid #d63031;
+        border-bottom: 1px solid $c-naranja;
         outline: none;
         color: $c-blanco;
     }
 
     .contacto-form form button{
-        background: #b70e21;
+        background: $c-naranja;
         border: 0;
         text-transform: uppercase;
         padding: 1em;
