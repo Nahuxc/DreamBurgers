@@ -2,15 +2,17 @@
 
 .body-servicios{
     box-sizing: border-box;
-    width: 100%;
+    width: $wdt;
     height: 900px;
-    background:  url(../images/Restaurant-img/restauranteimg1.png);
+    background: #5a5c5c;
+    background: -webkit-linear-gradient(to right, hsla(180, 1%, 24%, 0.315), hsla(0, 74%, 47%, 0.301));
+    background: linear-gradient(to right, hsla(180, 12%, 15%, 0.315), hsla(0, 96%, 46%, 0.678));
     background-size: cover;
     position: relative;
-   color: $c-blanco;
-   font-family: sans-serif;
-   font-weight: 800;
-   padding: 0 1 .5rem;
+    color: $c-blanco;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 0 1 .5rem;
 }
 
 .header-servicios{
@@ -68,7 +70,7 @@
                 }
         }
         h1 {
-            font-size: 30px;
+            font-size: $fontnavh1;
             padding: 20px 70px 10px 10px;
             line-height: 2;
             color: $c-blanco;
@@ -122,6 +124,8 @@
     .titulo-comunicate{
         text-align: center;
         font-size: 3em;
+        text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
+        line-height: 2;
         span{
             color: #b70e21;
             text-shadow: 2px 2px 1px $c-blanco, 2px 2px 2px $c-blanco;

@@ -11,7 +11,7 @@
                     background:hsla(0, 0%, 0%, 0.945);
                     font-size: 80px;
                     text-align: center;
-                    color: white;
+                    color: $c-blanco;
                     font-family: sans-serif;
                     font-weight: 800;
                     text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
@@ -22,7 +22,7 @@
                     padding: 20px;
                     text-align: center;
                     font-size: 50px;
-                    color: white;
+                    color: $c-blanco;
                     font-family: sans-serif;
                     font-weight: 800;
                     text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
@@ -31,7 +31,7 @@
                 .text-rest{
                     font-size: 15px;
                     line-height: 2;
-                    color: white;
+                    color: $c-blanco;
                     text-align: left;
                     text-transform: uppercase;
                     font-family: sans-serif;

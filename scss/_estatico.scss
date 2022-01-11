@@ -97,7 +97,7 @@ body{
                 }
         }
         h1 {
-            font-size: 30px;
+            font-size: $fontnavh1;
             padding: 20px 70px 10px 10px;
             line-height: 2;
             color: $c-blanco;
@@ -150,8 +150,8 @@ body{
         justify-content: center;
         flex-direction: column;
         h1 {
-            font-size: 150px;
-            color: white;
+            font-size: $fonth1;
+            color: $c-blanco;
             font-family: sans-serif;
             font-weight: 800;
             text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
@@ -264,7 +264,7 @@ body{
                 }
         }
         h1 {
-            font-size: 30px;
+            font-size: $fontnavh1;
             padding: 20px 70px 10px 10px;
             line-height: 2;
             color: $c-blanco;
@@ -317,8 +317,8 @@ body{
         justify-content: center;
         flex-direction: column;
         h1 {
-            font-size: 150px;
-            color: white;
+            font-size: $fonth1;
+            color: $c-blanco;
             font-family: sans-serif;
             font-weight: 800;
             text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
@@ -327,7 +327,7 @@ body{
         h2 {
             height: 430px;
             font-weight: 800;
-            color: white;
+            color: $c-blanco;
             font-family: sans-serif;
             font-size: 100px;
             text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
@@ -347,7 +347,7 @@ body{
         top: 30px;
         display: inline-block;
         padding: 15px 30px 30px 30px;
-        color: white;
+        color: $c-blanco;
         font-size: 30px;
         text-decoration: none;
         overflow: hidden;
@@ -431,7 +431,7 @@ body{
                 }
         }
         h1 {
-            font-size: 30px;
+            font-size: $fontnavh1;
             padding: 20px 70px 10px 10px;
             line-height: 2;
             color: $c-blanco;
@@ -484,8 +484,8 @@ body{
         justify-content: center;
         flex-direction: column;
         h1 {
-            font-size: 150px;
-            color: white;
+            font-size: $fonth1;
+            color: $c-blanco;
             font-family: sans-serif;
             font-weight: 800;
             text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
@@ -559,7 +559,7 @@ body{
                     }
                 }
                 h2{
-                    color: white;
+                    color: $c-blanco;
                     margin-bottom: 25px;
                     font-size: 20px;
                 }
