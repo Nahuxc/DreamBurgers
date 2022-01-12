@@ -19,7 +19,7 @@
         background-position-y: center;
         display: flex;
         flex-direction: column;
-        width: 35%;
+        width: 40%;
         height: 250px;
         align-items: center;
         justify-content: space-evenly;
@@ -28,6 +28,10 @@
     }
 
     .clientes-comentario{
+        width: 80%;
+        background: $c-marron-w;
+        padding: 10px;
+        border-radius: 10px;
         text-align: center;
         color: rgb(255, 255, 255);
         font-size: 15px;
@@ -38,6 +42,9 @@
     }
 
     .cliente-nombre{
+        background: $c-marron-w;
+        padding: 10px;
+        border-radius: 10px;
         color: rgb(255, 255, 255);
         font-size: 25px;
         font-family: sans-serif;
