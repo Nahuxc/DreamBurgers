@@ -3982,7 +3982,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 370px;
+    width: 325px;
     height: 430px;
     border-radius: 30px;
   }
@@ -3995,7 +3995,7 @@ body {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 370px;
+    width: 310px;
     height: 415px;
     margin: 0px 0px 0px 35px;
     border-radius: 30px;
