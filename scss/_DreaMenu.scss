@@ -291,11 +291,11 @@
         font-size: 24px;
         text-decoration: none;
         overflow: hidden;
-        transition: 0.1s;
+        transition: all 250ms ease;
+        text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
             &:hover {
                 background: $c-rojo;
                 box-shadow: 0 0 10px $c-rojo, 0 0 40px $c-rojo, 0 0 80px $c-rojo;
-                transition-delay: 155ms;
             }
     }
 }

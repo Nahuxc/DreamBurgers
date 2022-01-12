@@ -1,7 +1,7 @@
 {
   "name": "dreamburgers",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nos unimos a las mejores hamburgueserías del país para formar el DreamBurger's. Vas a poder disfrutar de las hamburguesas más ricas de Buenos Aires",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

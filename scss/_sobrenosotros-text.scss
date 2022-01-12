@@ -29,11 +29,13 @@
                     margin: 20px;
                 }
                 .text-rest{
+                    padding: 10px;
+                    background: $c-negro-2 ;
+                    border-radius: 10px;
                     font-size: 15px;
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
