@@ -121,7 +121,6 @@ html {
   line-height: 2;
   color: white;
   text-align: left;
-  text-transform: uppercase;
   font-family: sans-serif;
   font-weight: 800;
   display: -webkit-box;
@@ -333,7 +332,6 @@ html {
   line-height: 2;
   color: white;
   text-align: left;
-  text-transform: uppercase;
   font-family: sans-serif;
   font-weight: 800;
   display: -webkit-box;
@@ -414,7 +412,7 @@ html {
 }
 
 .header-dreamenu .textos-home-link {
-  background: rgba(56, 56, 56, 0.863);
+  background: rgba(56, 56, 56, 0.931);
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -536,7 +534,6 @@ html {
   line-height: 2;
   color: white;
   text-align: left;
-  text-transform: uppercase;
   font-family: sans-serif;
   font-weight: 800;
   display: -webkit-box;
@@ -1477,7 +1474,6 @@ html {
   line-height: 2;
   color: white;
   text-align: left;
-  text-transform: uppercase;
   font-family: sans-serif;
   font-weight: 800;
   display: -webkit-box;
