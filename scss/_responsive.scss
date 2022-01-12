@@ -2,6 +2,10 @@
 
 @media only screen and (max-width: 1701px) {
 
+    html{
+        scroll-behavior: smooth;
+    }
+
         .header {
             width: 100%;
             height: 850px;
@@ -69,14 +73,13 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
                     flex-direction: row;
                     text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
                 }
-        
+
                 .nav__text {
                     font-size: 20px;
                     text-decoration: none;
@@ -133,7 +136,6 @@
                 }
             }
             /* boton de inicio  */
-        
             .textos-home-link {
                 background: hsla(0, 0%, 22%, 0.664);
                 padding: 0;
@@ -158,7 +160,7 @@
                     }
             }
             /* wave */
-        
+
             .wave {
                 position: absolute;
                 bottom: 0;
@@ -232,14 +234,13 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
                     flex-direction: row;
                     text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
                 }
-        
+
                 .nav__text {
                     font-size: 20px;
                     text-decoration: none;
@@ -313,7 +314,6 @@
                     }
             }
             /* wave */
-        
             .wave {
                 position: absolute;
                 bottom: 0;
@@ -381,7 +381,6 @@
                 line-height: 2;
                 color: $c-blanco;
                 text-align: left;
-                text-transform: uppercase;
                 font-family: sans-serif;
                 font-weight: 800;
                 display: flex;
@@ -983,6 +982,10 @@
 
 @media only screen and (max-width: 1246px) {
 
+    html{
+        scroll-behavior: smooth;
+    }
+
         .header {
             width: 100%;
             height: 850px;
@@ -1050,7 +1053,6 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
@@ -1114,7 +1116,7 @@
                 }
             }
             /* boton de inicio  */
-        
+
             .textos-home-link {
                 background: hsla(0, 0%, 22%, 0.664);
                 padding: 0;
@@ -1213,14 +1215,13 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
                     flex-direction: row;
                     text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
                 }
-        
+
                 .nav__text {
                     font-size: 20px;
                     text-decoration: none;
@@ -1362,14 +1363,13 @@
                 line-height: 2;
                 color: $c-blanco;
                 text-align: left;
-                text-transform: uppercase;
                 font-family: sans-serif;
                 font-weight: 800;
                 display: flex;
                 flex-direction: row;
                 text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
             }
-    
+
             .nav__text {
                 font-size: 20px;
                 text-decoration: none;
@@ -1470,7 +1470,6 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
@@ -1964,6 +1963,10 @@
 
 @media only screen and (max-width: 1025px) {
 
+    html{
+        scroll-behavior: smooth;
+    }
+
         .header {
             width: 100%;
             height: 850px;
@@ -2031,14 +2034,13 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
                     flex-direction: row;
                     text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
                 }
-        
+
                 .nav__text {
                     font-size: 20px;
                     text-decoration: none;
@@ -2194,7 +2196,6 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
@@ -2343,7 +2344,6 @@
                 line-height: 2;
                 color: $c-blanco;
                 text-align: left;
-                text-transform: uppercase;
                 font-family: sans-serif;
                 font-weight: 800;
                 display: flex;
@@ -2451,7 +2451,6 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
@@ -2947,6 +2946,11 @@
 /* ajuste a mobile */
 
 @media only screen and (max-width: 426px) {
+
+    html{
+        scroll-behavior: smooth;
+    }
+
 
         .header {
             background: url(../images/Comidas/fondo1.jpg);
@@ -4059,6 +4063,10 @@
 }
 
 @media only screen and (max-width: 376px) {
+
+    html{
+        scroll-behavior: smooth;
+    }
 
     .header {
         background: url(../images/Comidas/fondo1.jpg);

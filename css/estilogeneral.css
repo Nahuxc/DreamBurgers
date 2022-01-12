@@ -198,6 +198,10 @@ html {
   font-family: sans-serif;
   font-weight: 800;
   text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #222;
+  -webkit-animation: backInDown;
+          animation: backInDown;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .header .textos-home h2, .header-dreamenu .textos-home .header h1 h2, .header-sobrenosotros .textos-home .header h1 h2 {
@@ -207,6 +211,10 @@ html {
   color: white;
   font-family: sans-serif;
   text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #222;
+  -webkit-animation: backInDown;
+          animation: backInDown;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .header .textos-home-link {
@@ -409,6 +417,10 @@ html {
   font-family: sans-serif;
   font-weight: 800;
   text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #222;
+  -webkit-animation: backInDown;
+          animation: backInDown;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .header-dreamenu .textos-home-link {
@@ -611,6 +623,10 @@ html {
   font-family: sans-serif;
   font-weight: 800;
   text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #222;
+  -webkit-animation: backInDown;
+          animation: backInDown;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .header-sobrenosotros .textos-home-link {
@@ -1715,6 +1731,9 @@ html {
 }
 
 @media only screen and (max-width: 1701px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .header {
     width: 100%;
     height: 850px;
@@ -1791,7 +1810,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -1983,7 +2001,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -2157,7 +2174,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -2907,6 +2923,9 @@ html {
 }
 
 @media only screen and (max-width: 1246px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .header {
     width: 100%;
     height: 850px;
@@ -2983,7 +3002,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -3175,7 +3193,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -3349,7 +3366,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -3473,7 +3489,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -4099,6 +4114,9 @@ html {
 }
 
 @media only screen and (max-width: 1025px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .header {
     width: 100%;
     height: 850px;
@@ -4175,7 +4193,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -4367,7 +4384,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -4541,7 +4557,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -4665,7 +4680,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -5292,6 +5306,9 @@ html {
 
 /* ajuste a mobile */
 @media only screen and (max-width: 426px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .header {
     background: url(../images/Comidas/fondo1.jpg);
     background-position-x: right;
@@ -6621,6 +6638,9 @@ html {
 }
 
 @media only screen and (max-width: 376px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .header {
     background: url(../images/Comidas/fondo1.jpg);
     background-position-x: right;
