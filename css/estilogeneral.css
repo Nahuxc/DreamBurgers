@@ -828,7 +828,7 @@ body {
 }
 
 .anuncios-section .anuncios-box .anuncios ul li a .img-ilus {
-  width: 520px;
+  width: 100%;
   height: 550px;
   border-radius: 30px;
 }
@@ -843,7 +843,7 @@ body {
 }
 
 .anuncios-section .anuncios-box .img-horarios {
-  width: 500px;
+  width: 85%;
   height: 530px;
   margin: 0px 0px 0px 35px;
   border-radius: 30px;
@@ -2790,7 +2790,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 470px;
+    width: 100%;
     height: 430px;
     border-radius: 30px;
   }
@@ -2803,7 +2803,7 @@ body {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 440px;
+    width: 85%;
     height: 415px;
     margin: 0px 0px 0px 35px;
     border-radius: 30px;
@@ -3982,7 +3982,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 325px;
+    width: 100%;
     height: 430px;
     border-radius: 30px;
   }
@@ -3995,7 +3995,7 @@ body {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 310px;
+    width: 85%;
     height: 415px;
     margin: 0px 0px 0px 35px;
     border-radius: 30px;
@@ -5174,7 +5174,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 260px;
+    width: 100%;
     height: 430px;
     border-radius: 30px;
   }
@@ -5187,7 +5187,7 @@ body {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 240px;
+    width: 85%;
     height: 410px;
     margin: 0px 0px 0px 35px;
     border-radius: 30px;
@@ -6252,7 +6252,7 @@ body {
     list-style: none;
   }
   .anuncios-section .anuncios-box .anuncios ul li a .img-ilus {
-    width: 335px;
+    width: 100%;
     height: 420px;
     border-radius: 30px;
   }
@@ -6265,7 +6265,7 @@ body {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 335px;
+    width: 85%;
     height: 500px;
     margin: 0px 0px 20px 20px;
     border-radius: 30px;
@@ -7582,7 +7582,7 @@ body {
     list-style: none;
   }
   .anuncios-section .anuncios-box .anuncios ul li a .img-ilus {
-    width: 290px;
+    width: 100%;
     height: 420px;
     border-radius: 30px;
   }
@@ -7595,7 +7595,7 @@ body {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 300px;
+    width: 85%;
     height: 500px;
     margin: 0px 0px 20px 20px;
     border-radius: 30px;
