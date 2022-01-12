@@ -710,6 +710,7 @@ body {
 .pie-pagina .grupo-1 .box ul {
   list-style: none;
   color: white;
+  line-height: 45px;
 }
 
 .pie-pagina .grupo-1 .box ul a {
