@@ -488,7 +488,6 @@
                     line-height: 2;
                     color: $c-blanco;
                     text-align: left;
-                    text-transform: uppercase;
                     font-family: sans-serif;
                     font-weight: 800;
                     display: flex;
@@ -816,7 +815,7 @@
 
     .buttom-h2 {
         color: white;
-        background-color: hsla(0, 0%, 0%, 0.904);
+        background-color: #1a1919;
         text-decoration: none;
         font-size: $fonth2;
         font-family: sans-serif;
@@ -858,7 +857,7 @@
 
     /* anuncios y horario */
     .anuncios-section{
-        background: url(../images/Clientes-Img/fondo-2.png);
+        background: #333;
         background-size: cover;
         background-position-x: center;
         background-repeat: no-repeat;
@@ -874,7 +873,7 @@
                 box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
                 margin: 15px;
                 .anuncios{
-                    width: 95%;
+                    width: 100%;
                     overflow: hidden;
                     ul{
                         display: flex;
@@ -1797,7 +1796,7 @@
 
     .buttom-h2 {
         color: white;
-        background-color: hsla(0, 0%, 0%, 0.904);
+        background-color: #1a1919;
         text-decoration: none;
         font-size: $fonth2;
         font-family: sans-serif;
@@ -1839,7 +1838,7 @@
 
     /* anuncios y horario */
     .anuncios-section{
-        background: url(../images/Clientes-Img/fondo-2.png);
+        background: $c-negro-2;
         background-size: cover;
         background-position-x: center;
         background-repeat: no-repeat;
@@ -1855,7 +1854,7 @@
                 box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
                 margin: 15px;
                 .anuncios{
-                    width: 95%;
+                    width: 100%;
                     overflow: hidden;
                     ul{
                         display: flex;
@@ -2780,7 +2779,7 @@
 
     .buttom-h2 {
         color: white;
-        background-color: hsla(0, 0%, 0%, 0.904);
+        background-color: #1a1919;
         text-decoration: none;
         font-size: $fonth2;
         font-family: sans-serif;
@@ -2822,7 +2821,7 @@
 
     /* anuncios y horario */
     .anuncios-section{
-        background: url(../images/Clientes-Img/fondo-2.png);
+        background: $c-negro-2;
         background-size: cover;
         background-position-x: center;
         background-repeat: no-repeat;
@@ -2838,7 +2837,7 @@
                 box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
                 margin: 15px;
                 .anuncios{
-                    width: 95%;
+                    width: 100%;
                     overflow: hidden;
                     ul{
                         display: flex;
@@ -3761,7 +3760,7 @@
 
     .buttom-h2 {
         color: white;
-        background-color: hsla(0, 0%, 0%, 0.904);
+        background-color: #1a1919;
         text-decoration: none;
         font-size: $fonth2;
         font-family: sans-serif;
@@ -3803,7 +3802,7 @@
 
     /* anuncios y horario */
     .anuncios-section{
-        background: url(../images/Clientes-Img/fondo-2.png);
+        background: $c-negro-2;
         background-size: cover;
         background-position-x: center;
         background-repeat: no-repeat;
@@ -3819,7 +3818,7 @@
                 box-shadow: 0 0 25px 0 rgba(2, 2, 2, 0.404);
                 margin: 15px;
                 .anuncios{
-                    width: 95%;
+                    width: 100%;
                     overflow: hidden;
                     ul{
                         display: flex;
@@ -3850,7 +3849,7 @@
                     text-align: center;
                 }
                 .img-horarios{
-                    width: 85%;
+                    width: 80%;
                     height: 410px;
                     margin: 0px 0px 0px 35px;
                     border-radius: 30px;
@@ -4659,7 +4658,7 @@
 
     .buttom-h2 {
         color: $c-blanco;
-        background-color: hsla(0, 0%, 0%, 0.904);
+        background-color: #1a1919;
         text-decoration: none;
         font-size: 40px;
         font-family: sans-serif;
@@ -4699,8 +4698,7 @@
     }
 
     .anuncios-section{
-        // background-color: rgb(56, 42, 5);
-        background: url(../images/Clientes-Img/fondo-2.png);
+        background: $c-negro-2;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -4713,7 +4711,7 @@
                     box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
                     margin: 15px;
                     .anuncios{
-                        width: 95%;
+                        width: 100%;
                         overflow: hidden;
                         ul{
                             display: flex;
@@ -4743,12 +4741,26 @@
                         text-align: center;
                     }
                     .img-horarios{
-                        width: 85%;
+                        width: 88%;
                         height: 500px;
                         margin: 0px 0px 20px 20px;
                         border-radius: 30px;
                     }
                 }
+    }
+
+    .box-titulo-anuncios{
+        border-radius: 20px;
+        color: white;
+        background-color: hsla(0, 0%, 0%, 0.904);
+        text-decoration: none;
+        font-size: $h3;
+        font-family: sans-serif;
+        text-align: center;
+        font-weight: 800;
+        text-shadow: 2px 2px 7px rgb(105, 105, 105), 2px 2px 7px rgb(223, 223, 223), 2px 2px 7px #0c1116;
+        background-color: $c-negro;
+        line-height: 2;
     }
 
     /* cambio de img */
@@ -4828,7 +4840,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        height: 770px;
+        height: 680px;
                     .buttom-h2{
                         background:hsla(0, 0%, 0%, 0.945);
                         font-size: 30px;
@@ -5775,7 +5787,7 @@
 
 .buttom-h2 {
     color: $c-blanco;
-    background-color: hsla(0, 0%, 0%, 0.904);
+    background-color: #1a1919;
     text-decoration: none;
     font-size: 40px;
     font-family: sans-serif;
@@ -5815,21 +5827,20 @@
 }
 
 .anuncios-section{
-    // background-color: rgb(56, 42, 5);
-    background: url(../images/Clientes-Img/fondo-2.png);
+    background: $c-negro-2;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
             .anuncios-box{
-                width: 93%;
+                width: 90%;
                 background-image: url(../images/ilustraciones/backgroundburger.png);
                 background-repeat: no-repeat;
                 border-radius: 30px;
                 box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
                 margin: 15px;
                 .anuncios{
-                    width: 95%;
+                    width: 100%;
                     overflow: hidden;
                     ul{
                         display: flex;
@@ -5859,12 +5870,26 @@
                     text-align: center;
                 }
                 .img-horarios{
-                    width: 85%;
+                    width: 88%;
                     height: 500px;
                     margin: 0px 0px 20px 20px;
                     border-radius: 30px;
                 }
             }
+}
+
+.box-titulo-anuncios{
+    border-radius: 20px;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.904);
+    text-decoration: none;
+    font-size: $h3;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 2px 7px rgb(105, 105, 105), 2px 2px 7px rgb(223, 223, 223), 2px 2px 7px #0c1116;
+    background-color: $c-negro;
+    line-height: 2;
 }
 
 /* cambio de img */
@@ -5877,7 +5902,6 @@
 }
 
 .clientes{
-    // background: radial-gradient(circle, rgb(122, 85, 17), rgb(173, 116, 25));
     background: url(../images/Clientes-Img/fondo-2.png);
     background-size:cover;
     background-position-x: center;
@@ -5937,6 +5961,7 @@
     font-family: sans-serif;
     font-weight: 800;
     text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px #a7a7a7, 2px 2px 80px $c-negro-1;
+    line-height: 2;
 }
 
 .about-restaurant{
@@ -5945,7 +5970,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 770px;
+    height: 790px;
                 .buttom-h2{
                     background:hsla(0, 0%, 0%, 0.945);
                     font-size: 30px;

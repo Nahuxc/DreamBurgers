@@ -8,6 +8,7 @@
 body {
   font-family: sans-serif;
   font-weight: 700;
+  background: #333;
 }
 
 /* scroll-website */
@@ -797,10 +798,7 @@ html {
 
 /* anuncios y horario */
 .anuncios-section {
-  background: url(../images/Clientes-Img/fondo-2.png);
-  background-size: cover;
-  background-position-x: center;
-  background-repeat: no-repeat;
+  background: #333;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -834,8 +832,8 @@ html {
   display: flex;
   padding: 0;
   width: 200%;
-  -webkit-animation: cambio 5s infinite alternate;
-          animation: cambio 5s infinite alternate;
+  -webkit-animation: cambio 3s infinite alternate;
+          animation: cambio 3s infinite alternate;
 }
 
 .anuncios-section .anuncios-box .anuncios ul li {
@@ -864,6 +862,20 @@ html {
   height: 530px;
   margin: 0px 0px 0px 35px;
   border-radius: 30px;
+}
+
+.box-titulo-anuncios {
+  margin: 10px 30px 30px 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.904);
+  text-decoration: none;
+  font-size: 100px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 2px 2px 7px dimgray, 2px 2px 7px #dfdfdf, 2px 2px 7px #0c1116;
+  background-color: #000000;
 }
 
 /* cambio de img */
@@ -1098,7 +1110,7 @@ html {
 
 .menu .contenedor-menu {
   width: 100%;
-  background: radial-gradient(circle, #333, #222);
+  background: radial-gradient(circle, #333, #333);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1112,7 +1124,7 @@ html {
   border-radius: 25px;
   -webkit-box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
           box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
-  width: 600px;
+  width: 550px;
   display: inline-block;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -1257,7 +1269,7 @@ html {
 
 .buttom-h2 {
   color: white;
-  background-color: rgba(0, 0, 0, 0.904);
+  background-color: #1a1919;
   text-decoration: none;
   font-size: 100px;
   font-family: sans-serif;
@@ -1390,14 +1402,18 @@ html {
 }
 
 .clientes-h2 {
+  margin: 10px 30px 30px 30px;
+  border-radius: 20px;
   color: white;
-  background-color: #222;
+  background-color: rgba(0, 0, 0, 0.904);
   text-decoration: none;
   font-size: 50px;
-  line-height: 2.5;
   font-family: sans-serif;
   text-align: center;
   font-weight: 800;
+  text-shadow: 2px 2px 7px dimgray, 2px 2px 7px #dfdfdf, 2px 2px 7px #0c1116;
+  background-color: #000000;
+  line-height: 2;
 }
 
 .body-servicios {
@@ -1671,7 +1687,7 @@ html {
   color: white;
   font-family: sans-serif;
   font-weight: 800;
-  text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #0c1116;
+  text-shadow: 2px 2px 7px dimgray, 2px 2px 7px #dfdfdf, 2px 2px 7px #0c1116;
 }
 
 .about-restaurant .h3-text-rest {
@@ -2297,7 +2313,6 @@ html {
     line-height: 2;
     color: white;
     text-align: left;
-    text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 800;
     display: -webkit-box;
@@ -2704,7 +2719,7 @@ html {
   }
   .buttom-h2 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #1a1919;
     text-decoration: none;
     font-size: 100px;
     font-family: sans-serif;
@@ -2760,7 +2775,7 @@ html {
   }
   /* anuncios y horario */
   .anuncios-section {
-    background: url(../images/Clientes-Img/fondo-2.png);
+    background: #333;
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -2785,7 +2800,7 @@ html {
     margin: 15px;
   }
   .anuncios-section .anuncios-box .anuncios {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
   }
   .anuncios-section .anuncios-box .anuncios ul {
@@ -3895,7 +3910,7 @@ html {
   }
   .buttom-h2 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #1a1919;
     text-decoration: none;
     font-size: 100px;
     font-family: sans-serif;
@@ -3951,7 +3966,7 @@ html {
   }
   /* anuncios y horario */
   .anuncios-section {
-    background: url(../images/Clientes-Img/fondo-2.png);
+    background: #333;
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -3976,7 +3991,7 @@ html {
     margin: 15px;
   }
   .anuncios-section .anuncios-box .anuncios {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
   }
   .anuncios-section .anuncios-box .anuncios ul {
@@ -5086,7 +5101,7 @@ html {
   }
   .buttom-h2 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #1a1919;
     text-decoration: none;
     font-size: 100px;
     font-family: sans-serif;
@@ -5142,7 +5157,7 @@ html {
   }
   /* anuncios y horario */
   .anuncios-section {
-    background: url(../images/Clientes-Img/fondo-2.png);
+    background: #333;
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -5167,7 +5182,7 @@ html {
     margin: 15px;
   }
   .anuncios-section .anuncios-box .anuncios {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
   }
   .anuncios-section .anuncios-box .anuncios ul {
@@ -6277,7 +6292,7 @@ html {
   }
   .buttom-h2 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #1a1919;
     text-decoration: none;
     font-size: 100px;
     font-family: sans-serif;
@@ -6333,7 +6348,7 @@ html {
   }
   /* anuncios y horario */
   .anuncios-section {
-    background: url(../images/Clientes-Img/fondo-2.png);
+    background: #333;
     background-size: cover;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -6358,7 +6373,7 @@ html {
     margin: 15px;
   }
   .anuncios-section .anuncios-box .anuncios {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
   }
   .anuncios-section .anuncios-box .anuncios ul {
@@ -6392,7 +6407,7 @@ html {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 85%;
+    width: 80%;
     height: 410px;
     margin: 0px 0px 0px 35px;
     border-radius: 30px;
@@ -7366,7 +7381,7 @@ html {
   }
   .buttom-h2 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #1a1919;
     text-decoration: none;
     font-size: 40px;
     font-family: sans-serif;
@@ -7420,7 +7435,7 @@ html {
             transition-delay: 155ms;
   }
   .anuncios-section {
-    background: url(../images/Clientes-Img/fondo-2.png);
+    background: #333;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7442,7 +7457,7 @@ html {
     margin: 15px;
   }
   .anuncios-section .anuncios-box .anuncios {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
   }
   .anuncios-section .anuncios-box .anuncios ul {
@@ -7473,10 +7488,23 @@ html {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 85%;
+    width: 88%;
     height: 500px;
     margin: 0px 0px 20px 20px;
     border-radius: 30px;
+  }
+  .box-titulo-anuncios {
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.904);
+    text-decoration: none;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 2px 7px dimgray, 2px 2px 7px #dfdfdf, 2px 2px 7px #0c1116;
+    background-color: #000000;
+    line-height: 2;
   }
   /* cambio de img */
   @-webkit-keyframes cambio {
@@ -7587,7 +7615,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 770px;
+    height: 680px;
   }
   .about-restaurant .buttom-h2 {
     background: rgba(0, 0, 0, 0.945);
@@ -8699,7 +8727,7 @@ html {
   }
   .buttom-h2 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #1a1919;
     text-decoration: none;
     font-size: 40px;
     font-family: sans-serif;
@@ -8753,7 +8781,7 @@ html {
             transition-delay: 155ms;
   }
   .anuncios-section {
-    background: url(../images/Clientes-Img/fondo-2.png);
+    background: #333;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8766,7 +8794,7 @@ html {
         justify-content: space-around;
   }
   .anuncios-section .anuncios-box {
-    width: 93%;
+    width: 90%;
     background-image: url(../images/ilustraciones/backgroundburger.png);
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -8775,7 +8803,7 @@ html {
     margin: 15px;
   }
   .anuncios-section .anuncios-box .anuncios {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
   }
   .anuncios-section .anuncios-box .anuncios ul {
@@ -8806,10 +8834,23 @@ html {
     text-align: center;
   }
   .anuncios-section .anuncios-box .img-horarios {
-    width: 85%;
+    width: 88%;
     height: 500px;
     margin: 0px 0px 20px 20px;
     border-radius: 30px;
+  }
+  .box-titulo-anuncios {
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.904);
+    text-decoration: none;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 2px 7px dimgray, 2px 2px 7px #dfdfdf, 2px 2px 7px #0c1116;
+    background-color: #000000;
+    line-height: 2;
   }
   /* cambio de img */
   @-webkit-keyframes cambio {
@@ -8913,6 +8954,7 @@ html {
     font-family: sans-serif;
     font-weight: 800;
     text-shadow: 50px 50px 50px #222, 2px 2px 2px #a7a7a7, 2px 2px 80px #222;
+    line-height: 2;
   }
   .about-restaurant {
     background: url(../images/Restaurant-img/restaurant.png);
@@ -8920,7 +8962,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 770px;
+    height: 790px;
   }
   .about-restaurant .buttom-h2 {
     background: rgba(0, 0, 0, 0.945);
