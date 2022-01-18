@@ -4,11 +4,7 @@
     box-sizing: border-box;
     width: $wdt;
     height: 900px;
-    background: #5a5c5c;
-    background: -webkit-linear-gradient(to right, hsla(180, 1%, 24%, 0.315), hsla(0, 74%, 47%, 0.301));
-    background: linear-gradient(to right, hsla(180, 12%, 15%, 0.315), hsla(0, 94%, 49%, 0.678));
-    background-size: cover;
-    position: relative;
+    background: url(../images/ilustraciones/fondomaderaN.png);
     color: $c-blanco;
     font-family: sans-serif;
     font-weight: 800;
@@ -19,7 +15,7 @@
     background: $c-negro-2;
     .contenedor-nav {
         padding: 0px 30px 15px 0;
-        background-color: hsla(0, 0%, 9%, 0.712);
+        background-color: hsla(0, 0%, 9%, 0.568);
         text-align: center;
         font-family: sans-serif;
         font-weight: 800;
@@ -102,11 +98,11 @@
                         color: $c-blanco;
                         padding: 10px;
                         display: block;
+                        transition: all 250ms ease;
                         &:hover {
-                            background: hsla(0, 100%, 50%, 0.589);
-                            transition: 350ms;
-                            border-radius: 15%;
-                            box-shadow: 0 0 10px $c-rojo, 0 0 30px $c-rojo, 0 0 10px $c-rojo;
+                            background: $c-rojo;
+                            box-shadow: 0 0 10px $c-rojo, 0 0 40px $c-rojo, 0 0 80px $c-rojo;
+                            border-radius: 10px;
                         }
                     }
                 }
@@ -125,6 +121,9 @@
         font-size: 3em;
         text-shadow: 2px 2px 7px $c-negro-1, 2px 2px 7px $c-negro-2, 2px 2px 7px $c-negro-1;
         line-height: 2;
+        animation: backInDown;
+        animation-duration: 1s;
+        text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
         span{
             color: $c-naranja-w;
             text-shadow: 2px 2px 1px $c-blanco, 2px 2px 2px $c-blanco;

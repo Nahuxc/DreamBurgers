@@ -413,15 +413,15 @@ html {
 }
 
 .header-dreamenu .textos-home h1, .header .textos-home .header-dreamenu h1 h1, .header .textos-home .header-dreamenu h2 h1, .header-sobrenosotros .textos-home .header-dreamenu h1 h1 {
-  font-size: 150px;
+  font-size: 110px;
   color: white;
   font-family: sans-serif;
   font-weight: 800;
   text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #222;
   -webkit-animation: backInDown;
           animation: backInDown;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
 }
 
 .header-dreamenu .textos-home-link {
@@ -832,8 +832,8 @@ html {
   display: flex;
   padding: 0;
   width: 200%;
-  -webkit-animation: cambio 3s infinite alternate;
-          animation: cambio 3s infinite alternate;
+  -webkit-animation: cambio 2.5s infinite alternate;
+          animation: cambio 2.5s infinite alternate;
 }
 
 .anuncios-section .anuncios-box .anuncios ul li {
@@ -955,6 +955,7 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: auto;
 }
 
 .sect-combos .menu-combos .combos {
@@ -1280,6 +1281,8 @@ html {
 
 .next-page {
   background: black;
+  border-radius: 20px;
+  margin: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1421,11 +1424,7 @@ html {
           box-sizing: border-box;
   width: 100%;
   height: 900px;
-  background: #5a5c5c;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(34, 43, 43, 0.315)), to(rgba(242, 7, 7, 0.678)));
-  background: linear-gradient(to right, rgba(34, 43, 43, 0.315), rgba(242, 7, 7, 0.678));
-  background-size: cover;
-  position: relative;
+  background: url(../images/ilustraciones/fondomaderaN.png);
   color: white;
   font-family: sans-serif;
   font-weight: 800;
@@ -1438,7 +1437,7 @@ html {
 
 .header-servicios .contenedor-nav {
   padding: 0px 30px 15px 0;
-  background-color: rgba(23, 23, 23, 0.712);
+  background-color: rgba(23, 23, 23, 0.568);
   text-align: center;
   font-family: sans-serif;
   font-weight: 800;
@@ -1548,15 +1547,15 @@ html {
   color: white;
   padding: 10px;
   display: block;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
 }
 
 .header-servicios .contenedor-nav .nav__text .menu-nav li a:hover {
-  background: rgba(255, 0, 0, 0.589);
-  -webkit-transition: 350ms;
-  transition: 350ms;
-  border-radius: 15%;
-  -webkit-box-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000, 0 0 10px #ff0000;
-          box-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000, 0 0 10px #ff0000;
+  background: #ff0000;
+  -webkit-box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+          box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+  border-radius: 10px;
 }
 
 .comunicate-menu {
@@ -1571,6 +1570,11 @@ html {
   font-size: 3em;
   text-shadow: 2px 2px 7px #222, 2px 2px 7px #333, 2px 2px 7px #222;
   line-height: 2;
+  -webkit-animation: backInDown;
+          animation: backInDown;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  text-shadow: 50px 50px 50px #222, 2px 2px 2px #333, 2px 2px 80px #222;
 }
 
 .comunicate-menu .titulo-comunicate span {

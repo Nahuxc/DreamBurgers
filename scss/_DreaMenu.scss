@@ -40,6 +40,7 @@
         width: $wdt;
         display: flex;
         justify-content: space-evenly;
+        margin: auto;
         .combos{
             background-color: rgb(223, 219, 219);
             border-radius: 25px;
@@ -271,6 +272,8 @@
 
 .next-page {
     background: black;
+    border-radius: 20px;
+    margin: 20px;
     align-items: center;
     justify-content: center;
     flex-direction: column;

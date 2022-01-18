@@ -146,6 +146,7 @@ html{
             }
         }
     }
+
     /* home*/
     .textos-home {
         display: flex;
@@ -326,13 +327,13 @@ html{
         flex-direction: column;
         h1 {
             @extend .textos-home;
-            font-size: $h1;
+            font-size: 110px;
             color: $c-blanco;
             font-family: sans-serif;
             font-weight: 800;
             text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
             animation: backInDown;
-            animation-duration: 1s;
+            animation-duration: 1.5s;
         }
     }
     /* boton de inicio  */
