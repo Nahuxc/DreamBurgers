@@ -1,10 +1,15 @@
 @import "variables";
 
 .body-servicios{
+    background: #1b1d1d;
+    background: -webkit-linear-gradient(to right, hsla(180, 1%, 18%, 0.863), hsla(0, 68%, 38%, 0.301)), url(../images/ilustraciones/fondomaderaN.png);
+    background: linear-gradient(to right, hsla(180, 1%, 20%, 0.767), hsla(0, 71%, 30%, 0.301)), url(../images/ilustraciones/fondomaderaN.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
     box-sizing: border-box;
     width: $wdt;
     height: 900px;
-    background: url(../images/ilustraciones/fondomaderaN.png);
     color: $c-blanco;
     font-family: sans-serif;
     font-weight: 800;
@@ -14,8 +19,13 @@
 .header-servicios{
     background: $c-negro-2;
     .contenedor-nav {
+        background: #000000c7;
+        background: -webkit-linear-gradient(to right, hsla(0, 0%, 0%, 0.883), hsla(0, 1%, 28%, 0.87)), url(../images/ilustraciones/fondomaderaN.png);
+        background: linear-gradient(to right, hsla(0, 0%, 0%, 0.863), hsla(0, 1%, 29%, 0.863)), url(../images/ilustraciones/fondomaderaN.png);
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
         padding: 0px 30px 15px 0;
-        background-color: hsla(0, 0%, 9%, 0.568);
         text-align: center;
         font-family: sans-serif;
         font-weight: 800;
@@ -125,7 +135,7 @@
         animation-duration: 1s;
         text-shadow: 50px 50px 50px $c-negro-1, 2px 2px 2px $c-negro-2, 2px 2px 80px $c-negro-1;
         span{
-            color: $c-naranja-w;
+            color: rgb(175, 8, 8);
             text-shadow: 2px 2px 1px $c-blanco, 2px 2px 2px $c-blanco;
         }
     }
@@ -137,14 +147,16 @@
             padding: 1em;
         }
         .form-cont{
-            background: #222222;
+            border-radius: 20px 20px 0px 0px;
+            background: hsla(0, 0%, 13%, 0.781);
             form{
                 margin: 0;
                 padding: 1em;
             }
         }
         .form-info-cont{
-            background: #000;
+            border-radius: 0px 0px 20px 20px;
+            background: hsla(0, 0%, 0%, 0.767);
             list-style: none;
             padding: 10px;
         }
@@ -185,17 +197,17 @@
         padding: .7em;
         border: none;
         background: none;
-        border-bottom: 1px solid $c-naranja;
+        border-bottom: 1px solid $c-blanco;
         outline: none;
         color: $c-blanco;
     }
 
     .contacto-form form button{
-        background: $c-naranja;
+        background: rgb(156, 34, 34);
         border: 0;
         text-transform: uppercase;
         padding: 1em;
-        color: $c-negro-2;
+        color: $c-blanco;
     }
 
     .contacto-form form button:hover,
